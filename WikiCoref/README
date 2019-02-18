@@ -1,0 +1,38 @@
+***** Annotation Tool *****
+WikiCoref was realized with MMAX , you need to download the tool in order to inspect the corpus.   
+
+Download MMAX2 from http://sourceforge.net/projects/mmax2/
+
+***** Directories *****
+
+---Documents/
+Plain text used in annotation
+
+---Annotation/
+The Corpus in MMAX Project Format, the markables are in docName/Markables/docName_coref_level.xml
+*Also the Markables folder contains docName_coref_level_OntoNotesScheme.xml, which follow Ontonotes GuideLines (mentions tagged Cop and ATR  are removed)
+*docName_coref_level_ACEScheme.xml, which follow Ontonotes GuideLines (Mentions tagged Cop and ATR  are kept but the large mention that domain 2 ATR mentions is removed)
+
+---Output/
+	./Key
+	WikiCoref in Table,Text Format
+	./Dcoref
+	The output of Dcoref[(Raghunathan et al. 2010) and (Lee et al. 2013) ] in Table,Text,StanfordXML Format
+	./Scoref
+	The output of Scoref (Clark and Manning 2015)in Table,Text,StanfordXML Format
+
+---Evaluation/
+Contains in Conll-2011 Format, thus compatible with CorScorer found in : https://github.com/conll/reference-coreference-scorers
+To run the script, use the following command : perl scorer.pl all key response none 
+***** Annoation scheme *****
+Annotation scheme and other details can be found in :
+----------------------------------------------------
+"WikiCoref: An English Coreference-annotated Corpus of Wikipedia Articles"
+
+*If you're using the resource, please cite the paper
+
+***** Contact *****
+For questions regarding WikiCoref, please use the mailing list:
+---------------------------------------------------------------
+felipe@iro.umontreal.ca
+abbas.ghaddar@umontreal.ca

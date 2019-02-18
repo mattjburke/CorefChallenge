@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/sentence">
+<markable mmax_level="sentence" id="markable_1" span="word_1..word_31" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_2" span="word_32..word_44" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_3" span="word_45..word_62" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_4" span="word_63..word_72" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_5" span="word_73..word_85" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_6" span="word_86..word_113" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_7" span="word_114..word_125" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_8" span="word_126..word_167" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_9" span="word_168..word_180" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_10" span="word_181..word_212" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_11" span="word_213..word_244" imported_tag_type="empty" />
+</markables>

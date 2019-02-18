@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/sentence">
+<markable mmax_level="sentence" id="markable_1" span="word_1..word_14" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_2" span="word_15..word_43" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_3" span="word_44..word_58" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_4" span="word_59..word_74" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_5" span="word_75..word_91" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_6" span="word_92..word_120" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_7" span="word_121..word_164" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_8" span="word_165..word_187" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_9" span="word_188..word_212" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_10" span="word_213..word_242" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_11" span="word_243..word_268" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_12" span="word_269..word_287" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_13" span="word_288..word_313" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_14" span="word_314..word_332" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_15" span="word_333..word_361" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_16" span="word_362..word_381" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_17" span="word_382..word_402" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_18" span="word_403..word_417" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_19" span="word_418..word_438" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_20" span="word_439..word_461" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_21" span="word_462..word_519" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_22" span="word_520..word_546" imported_tag_type="empty" />
+</markables>

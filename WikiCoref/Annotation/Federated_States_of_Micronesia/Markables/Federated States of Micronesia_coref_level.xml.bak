@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+<markable id="markable_575" span="word_1..word_5" coref_class="set_5001" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_683" span="word_1..word_8" coref_class="set_120" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_576" span="word_7..word_7" coref_class="set_5001" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_577" span="word_10..word_40" coref_class="set_120" mentiontype="np" coreftype="cop" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_626" span="word_17..word_18" coref_class="set_100" mentiontype="np" coreftype="ident" topic="federated state" reference="NaN" mmax_level="coref" />
+<markable id="markable_350" span="word_25..word_25" coref_class="set_57" mentiontype="ne" coreftype="ident" topic="yap" reference="NaN" mmax_level="coref" />
+<markable id="markable_627" span="word_25..word_31" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_361" span="word_27..word_27" coref_class="set_54" mentiontype="ne" coreftype="ident" topic="chuuk" reference="NaN" mmax_level="coref" />
+<markable id="markable_369" span="word_29..word_29" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_394" span="word_31..word_31" coref_class="set_56" mentiontype="ne" coreftype="ident" topic="kosrae" reference="NaN" mmax_level="coref" />
+<markable id="markable_384" span="word_39..word_40" coref_class="set_84" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_580" span="word_44..word_45" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_399" span="word_48..word_49" coref_class="set_5002" mentiontype="np" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_684" span="word_48..word_59" coref_class="set_121" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_628" span="word_51..word_58" coref_class="set_5002" mentiontype="np" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_581" span="word_73..word_73" coref_class="set_100" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_403" span="word_77..word_78" coref_class="set_12" mentiontype="ne" coreftype="ident" topic="new guinea" reference="NaN" mmax_level="coref" />
+<markable id="markable_407" span="word_91..word_93" coref_class="set_124" mentiontype="ne" coreftype="ident" topic="marshall islands" reference="NaN" mmax_level="coref" />
+<markable id="markable_417" span="word_97..word_97" coref_class="set_123" mentiontype="ne" coreftype="ident" topic="palau" reference="NaN" mmax_level="coref" />
+<markable id="markable_421" span="word_99..word_100" coref_class="set_16" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_425" span="word_106..word_106" coref_class="set_17" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_582" span="word_118..word_120" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_427" span="word_118..word_123" coref_class="set_18" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_428" span="word_128..word_128" coref_class="set_18" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_386" span="word_135..word_137" coref_class="set_84" mentiontype="ne" coreftype="ident" topic="pacific ocean" reference="NaN" mmax_level="coref" />
+<markable id="markable_430" span="word_139..word_140" coref_class="set_19" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_431" span="word_142..word_142" coref_class="set_19" mentiontype="ne" coreftype="cop" topic="palikir" reference="NaN" mmax_level="coref" />
+<markable id="markable_368" span="word_146..word_147" coref_class="set_6" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_631" span="word_150..word_152" coref_class="set_77" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_632" span="word_154..word_154" coref_class="set_77" mentiontype="ne" coreftype="cop" topic="weno" reference="NaN" mmax_level="coref" />
+<markable id="markable_661" span="word_162..word_166" coref_class="set_111" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_432" span="word_164..word_164" coref_class="set_120" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_633" span="word_165..word_166" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_395" span="word_180..word_180" coref_class="set_56" mentiontype="ne" coreftype="ident" topic="kosrae" reference="NaN" mmax_level="coref" />
+<markable id="markable_584" span="word_186..word_190" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_436" span="word_196..word_198" coref_class="set_20" mentiontype="ne" coreftype="ident" topic="caroline islands" reference="NaN" mmax_level="coref" />
+<markable id="markable_634" span="word_200..word_204" coref_class="set_79" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_391" span="word_224..word_226" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_635" span="word_229..word_230" coref_class="set_79" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_585" span="word_235..word_236" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_636" span="word_239..word_248" coref_class="set_120" mentiontype="np" coreftype="cop" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_443" span="word_242..word_248" coref_class="set_5003" mentiontype="np" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_685" span="word_242..word_260" coref_class="set_122" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_444" span="word_250..word_250" coref_class="set_5003" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_448" span="word_253..word_260" coref_class="set_5003" mentiontype="np" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_587" span="word_263..word_263" coref_class="set_120" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_588" span="word_265..word_265" coref_class="set_120" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_485" span="word_270..word_273" coref_class="set_26" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_488" span="word_276..word_278" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="sovereign state" reference="NaN" mmax_level="coref" />
+<markable id="markable_489" span="word_280..word_280" coref_class="set_28" mentiontype="ne" coreftype="ident" topic="independence" reference="NaN" mmax_level="coref" />
+<markable id="markable_491" span="word_284..word_287" coref_class="set_29" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_478" span="word_290..word_293" coref_class="set_24" mentiontype="ne" coreftype="ident" topic="compact of free association" reference="NaN" mmax_level="coref" />
+<markable id="markable_450" span="word_295..word_297" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_637" span="word_299..word_310" coref_class="set_81" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_445" span="word_309..word_310" coref_class="set_122" mentiontype="ne" coreftype="ident" topic="trust territory of the pacific islands" reference="NaN" mmax_level="coref" />
+<markable id="markable_494" span="word_313..word_313" coref_class="set_81" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_409" span="word_319..word_324" coref_class="set_5004" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_687" span="word_319..word_327" coref_class="set_124" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_638" span="word_319..word_335" coref_class="set_81" mentiontype="np" coreftype="cop" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_410" span="word_326..word_326" coref_class="set_5004" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_416" span="word_329..word_332" coref_class="set_5005" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_686" span="word_329..word_335" coref_class="set_123" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_629" span="word_334..word_334" coref_class="set_5005" mentiontype="np" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_589" span="word_337..word_338" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_495" span="word_343..word_345" coref_class="set_31" mentiontype="ne" coreftype="ident" topic="united nations" reference="NaN" mmax_level="coref" />
+<markable id="markable_322" span="word_350..word_351" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_351" span="word_375..word_375" coref_class="set_57" mentiontype="ne" coreftype="ident" topic="yap" reference="NaN" mmax_level="coref" />
+<markable id="markable_639" span="word_377..word_378" coref_class="set_85" mentiontype="ne" coreftype="ident" topic="nan madol" reference="NaN" mmax_level="coref" />
+<markable id="markable_499" span="word_382..word_393" coref_class="set_85" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_640" span="word_398..word_402" coref_class="set_85" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_500" span="word_404..word_404" coref_class="set_85" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_370" span="word_412..word_415" coref_class="set_6" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_372" span="word_431..word_432" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_642" span="word_449..word_450" coref_class="set_6001" mentiontype="np" coreftype="atr" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_643" span="word_452..word_467" coref_class="set_6001" mentiontype="np" coreftype="atr" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_411" span="word_459..word_460" coref_class="set_6002" mentiontype="np" coreftype="atr" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_630" span="word_462..word_462" coref_class="set_6002" mentiontype="np" coreftype="atr" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_505" span="word_466..word_467" coref_class="set_87" mentiontype="ne" coreftype="ident" topic="spain" reference="NaN" mmax_level="coref" />
+<markable id="markable_438" span="word_470..word_471" coref_class="set_20" mentiontype="ne" coreftype="ident" topic="caroline islands" reference="NaN" mmax_level="coref" />
+<markable id="markable_644" span="word_477..word_478" coref_class="set_87" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_509" span="word_480..word_481" coref_class="set_37" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_688" span="word_484..word_484" coref_class="set_87" mentiontype="ne" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_504" span="word_502..word_502" coref_class="set_87" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_511" span="word_504..word_510" coref_class="set_88" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_645" span="word_515..word_515" coref_class="set_88" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_373" span="word_517..word_520" coref_class="set_6" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_506" span="word_526..word_527" coref_class="set_87" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_510" span="word_529..word_530" coref_class="set_37" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_514" span="word_537..word_537" coref_class="set_37" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_647" span="word_541..word_541" coref_class="set_96" mentiontype="ne" coreftype="ident" topic="japan" reference="NaN" mmax_level="coref" />
+<markable id="markable_454" span="word_548..word_550" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_516" span="word_552..word_554" coref_class="set_40" mentiontype="ne" coreftype="ident" topic="world war ii" reference="NaN" mmax_level="coref" />
+<markable id="markable_456" span="word_558..word_559" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_498" span="word_561..word_562" coref_class="set_31" mentiontype="ne" coreftype="ident" topic="united nations" reference="NaN" mmax_level="coref" />
+<markable id="markable_442" span="word_569..word_575" coref_class="set_122" mentiontype="ne" coreftype="ident" topic="trust territory of the pacific islands" reference="NaN" mmax_level="coref" />
+<markable id="markable_517" span="word_578..word_580" coref_class="set_40" mentiontype="ne" coreftype="ident" topic="world war ii" reference="NaN" mmax_level="coref" />
+<markable id="markable_646" span="word_586..word_587" coref_class="set_96" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_515" span="word_610..word_611" coref_class="set_40" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_364" span="word_616..word_616" coref_class="set_54" mentiontype="ne" coreftype="ident" topic="chuuk" reference="NaN" mmax_level="coref" />
+<markable id="markable_648" span="word_621..word_621" coref_class="set_96" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_486" span="word_630..word_633" coref_class="set_26" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_649" span="word_635..word_640" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_449" span="word_638..word_639" coref_class="set_122" mentiontype="ne" coreftype="ident" topic="trust territory of the pacific islands" reference="NaN" mmax_level="coref" />
+<markable id="markable_590" span="word_647..word_651" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_418" span="word_653..word_653" coref_class="set_123" mentiontype="ne" coreftype="ident" topic="palau" reference="NaN" mmax_level="coref" />
+<markable id="markable_412" span="word_655..word_657" coref_class="set_124" mentiontype="ne" coreftype="ident" topic="marshall islands" reference="NaN" mmax_level="coref" />
+<markable id="markable_591" span="word_669..word_670" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_477" span="word_672..word_676" coref_class="set_24" mentiontype="ne" coreftype="ident" topic="compact of free association" reference="NaN" mmax_level="coref" />
+<markable id="markable_457" span="word_679..word_682" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_492" span="word_689..word_692" coref_class="set_29" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_325" span="word_695..word_696" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_490" span="word_701..word_701" coref_class="set_28" mentiontype="ne" coreftype="ident" topic="independence" reference="NaN" mmax_level="coref" />
+<markable id="markable_480" span="word_703..word_704" coref_class="set_24" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_592" span="word_710..word_714" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_521" span="word_718..word_720" coref_class="set_42" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_522" span="word_737..word_737" coref_class="set_43" mentiontype="ne" coreftype="ident" topic="congress of the federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_526" span="word_774..word_778" coref_class="set_45" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_523" span="word_782..word_782" coref_class="set_43" mentiontype="ne" coreftype="ident" topic="congress of the federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_527" span="word_798..word_798" coref_class="set_45" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_528" span="word_808..word_812" coref_class="set_45" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_593" span="word_831..word_835" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_458" span="word_840..word_842" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_531" span="word_852..word_853" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_595" span="word_860..word_864" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_400" span="word_867..word_868" coref_class="set_121" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_440" span="word_874..word_880" coref_class="set_20" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_420" span="word_879..word_880" coref_class="set_16" mentiontype="ne" coreftype="ident" topic="philippines" reference="NaN" mmax_level="coref" />
+<markable id="markable_414" span="word_882..word_883" coref_class="set_121" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_534" span="word_887..word_888" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_352" span="word_892..word_892" coref_class="set_57" mentiontype="ne" coreftype="ident" topic="yap" reference="NaN" mmax_level="coref" />
+<markable id="markable_537" span="word_892..word_920" coref_class="set_100" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_365" span="word_894..word_901" coref_class="set_54" mentiontype="ne" coreftype="ident" topic="chuuk" reference="NaN" mmax_level="coref" />
+<markable id="markable_366" span="word_897..word_897" coref_class="set_54" mentiontype="ne" coreftype="ident" topic="chuuk" reference="NaN" mmax_level="coref" />
+<markable id="markable_375" span="word_903..word_913" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei state" reference="NaN" mmax_level="coref" />
+<markable id="markable_376" span="word_907..word_909" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_396" span="word_916..word_920" coref_class="set_56" mentiontype="ne" coreftype="ident" topic="kosrae" reference="NaN" mmax_level="coref" />
+<markable id="markable_397" span="word_919..word_919" coref_class="set_56" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_535" span="word_922..word_924" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_433" span="word_937..word_938" coref_class="set_19" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_435" span="word_940..word_940" coref_class="set_19" mentiontype="ne" coreftype="ident" topic="palikir" reference="NaN" mmax_level="coref" />
+<markable id="markable_377" span="word_943..word_943" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_596" span="word_948..word_952" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_415" span="word_961..word_962" coref_class="set_121" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_539" span="word_986..word_986" coref_class="set_50" mentiontype="ne" coreftype="ident" topic="china" reference="NaN" mmax_level="coref" />
+<markable id="markable_541" span="word_989..word_990" coref_class="set_51" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_460" span="word_1018..word_1019" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_461" span="word_1028..word_1029" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_597" span="word_1058..word_1059" coref_class="set_120" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_598" span="word_1065..word_1065" coref_class="set_120" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_599" span="word_1068..word_1072" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_600" span="word_1084..word_1088" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_331" span="word_1093..word_1093" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_650" span="word_1110..word_1110" coref_class="set_93" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_549" span="word_1113..word_1113" coref_class="set_54" mentiontype="ne" coreftype="atr" topic="chuukese people" reference="NaN" mmax_level="coref" />
+<markable id="markable_555" span="word_1117..word_1117" coref_class="set_55" mentiontype="ne" coreftype="atr" topic="pohnpeian language" reference="NaN" mmax_level="coref" />
+<markable id="markable_557" span="word_1121..word_1121" coref_class="set_56" mentiontype="ne" coreftype="ident" topic="kosraean language" reference="NaN" mmax_level="coref" />
+<markable id="markable_559" span="word_1125..word_1125" coref_class="set_57" mentiontype="ne" coreftype="ident" topic="yapese language" reference="NaN" mmax_level="coref" />
+<markable id="markable_353" span="word_1129..word_1129" coref_class="set_57" mentiontype="ne" coreftype="ident" topic="yap" reference="NaN" mmax_level="coref" />
+<markable id="markable_651" span="word_1135..word_1135" coref_class="set_93" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_652" span="word_1157..word_1157" coref_class="set_96" mentiontype="ne" coreftype="ident" topic="japanese settlement in the federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_653" span="word_1167..word_1167" coref_class="set_96" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_332" span="word_1170..word_1170" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_654" span="word_1173..word_1173" coref_class="set_96" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_655" span="word_1184..word_1184" coref_class="set_128" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_426" span="word_1186..word_1186" coref_class="set_17" mentiontype="ne" coreftype="ident" topic="australia" reference="NaN" mmax_level="coref" />
+<markable id="markable_540" span="word_1193..word_1193" coref_class="set_50" mentiontype="ne" coreftype="ident" topic="china" reference="NaN" mmax_level="coref" />
+<markable id="markable_423" span="word_1195..word_1196" coref_class="set_16" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_542" span="word_1198..word_1199" coref_class="set_51" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_657" span="word_1201..word_1201" coref_class="set_127" mentiontype="ne" coreftype="ident" topic="english language" reference="NaN" mmax_level="coref" />
+<markable id="markable_656" span="word_1204..word_1216" coref_class="set_127" mentiontype="np" coreftype="cop" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_464" span="word_1208..word_1209" coref_class="set_80" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_601" span="word_1225..word_1228" coref_class="set_100" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_602" span="word_1227..word_1227" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_378" span="word_1254..word_1254" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_658" span="word_1261..word_1266" coref_class="set_99" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_659" span="word_1269..word_1269" coref_class="set_99" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_560" span="word_1271..word_1275" coref_class="set_111" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_660" span="word_1273..word_1275" coref_class="set_100" mentiontype="ne" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_561" span="word_1277..word_1277" coref_class="set_111" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_354" span="word_1321..word_1324" coref_class="set_106" mentiontype="ne" coreftype="ident" topic="yap" reference="NaN" mmax_level="coref" />
+<markable id="markable_689" span="word_1328..word_1361" coref_class="set_125" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_662" span="word_1329..word_1332" coref_class="set_5006" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_663" span="word_1334..word_1335" coref_class="set_5006" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_664" span="word_1338..word_1361" coref_class="set_5006" mentiontype="np" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_563" span="word_1378..word_1378" coref_class="set_125" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_668" span="word_1385..word_1387" coref_class="set_105" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_667" span="word_1389..word_1398" coref_class="set_105" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_665" span="word_1398..word_1398" coref_class="set_104" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_666" span="word_1400..word_1401" coref_class="set_104" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_567" span="word_1407..word_1407" coref_class="set_105" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_568" span="word_1419..word_1419" coref_class="set_105" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_404" span="word_1430..word_1431" coref_class="set_12" mentiontype="ne" coreftype="ident" topic="new guinea" reference="NaN" mmax_level="coref" />
+<markable id="markable_419" span="word_1440..word_1440" coref_class="set_123" mentiontype="ne" coreftype="ident" topic="palau" reference="NaN" mmax_level="coref" />
+<markable id="markable_569" span="word_1445..word_1445" coref_class="set_105" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_357" span="word_1449..word_1450" coref_class="set_106" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_604" span="word_1455..word_1459" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_669" span="word_1461..word_1461" coref_class="set_5007" mentiontype="ne" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_690" span="word_1461..word_1468" coref_class="set_127" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_670" span="word_1463..word_1467" coref_class="set_5007" mentiontype="np" coreftype="atr" topic="NaN" reference="NaN" mmax_level="coref" />
+<markable id="markable_570" span="word_1471..word_1472" coref_class="set_120" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_691" span="word_1478..word_1478" coref_class="set_127" mentiontype="ne" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_554" span="word_1480..word_1480" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpeian language" reference="NaN" mmax_level="coref" />
+<markable id="markable_552" span="word_1489..word_1489" coref_class="set_6003" mentiontype="ne" coreftype="atr" topic="chuukese" reference="NaN" mmax_level="coref" />
+<markable id="markable_553" span="word_1491..word_1491" coref_class="set_6003" mentiontype="ne" coreftype="atr" topic="chuukese" reference="NaN" mmax_level="coref" />
+<markable id="markable_571" span="word_1498..word_1499" coref_class="set_120" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_606" span="word_1540..word_1544" coref_class="set_120" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_335" span="word_1555..word_1555" coref_class="set_120" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_573" span="word_1563..word_1565" coref_class="set_127" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_674" span="word_1574..word_1577" coref_class="set_118" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_671" span="word_1583..word_1584" coref_class="set_111" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_614" span="word_1586..word_1588" coref_class="set_117" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_615" span="word_1590..word_1590" coref_class="set_117" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_398" span="word_1598..word_1601" coref_class="set_56" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_617" span="word_1603..word_1604" coref_class="set_67" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_616" span="word_1606..word_1607" coref_class="set_67" mentiontype="ne" coreftype="cop" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_379" span="word_1615..word_1615" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_367" span="word_1630..word_1630" coref_class="set_54" mentiontype="ne" coreftype="ident" topic="chuuk state" reference="NaN" mmax_level="coref" />
+<markable id="markable_358" span="word_1632..word_1632" coref_class="set_57" mentiontype="ne" coreftype="ident" topic="yap" reference="NaN" mmax_level="coref" />
+<markable id="markable_677" span="word_1668..word_1675" coref_class="set_6004" mentiontype="np" coreftype="atr" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_678" span="word_1677..word_1677" coref_class="set_6004" mentiontype="np" coreftype="atr" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_380" span="word_1693..word_1693" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_679" span="word_1703..word_1703" coref_class="set_116" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_625" span="word_1708..word_1708" coref_class="set_116" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_381" span="word_1741..word_1741" coref_class="set_55" mentiontype="ne" coreftype="ident" topic="pohnpei" reference="NaN" mmax_level="coref" />
+<markable id="markable_382" span="word_1748..word_1751" coref_class="set_6" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_359" span="word_1780..word_1781" coref_class="set_6" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_681" span="word_1785..word_1785" coref_class="set_118" mentiontype="np" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_682" span="word_1792..word_1792" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="missionary" reference="NaN" mmax_level="coref" />
+<markable id="markable_520" span="word_1803..word_1804" coref_class="set_42" mentiontype="ne" coreftype="ident" topic="constitution" reference="NaN" mmax_level="coref" />
+<markable id="markable_465" span="word_1812..word_1813" coref_class="set_80" mentiontype="ne" coreftype="ident" topic="government" reference="NaN" mmax_level="coref" />
+<markable id="markable_692" span="word_1821..word_1823" coref_class="set_128" mentiontype="np" coreftype="ident" topic="" reference="NaN" mmax_level="coref" />
+<markable id="markable_607" span="word_1841..word_1842" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_608" span="word_1844..word_1863" coref_class="set_120" mentiontype="np" coreftype="cop" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_468" span="word_1853..word_1863" coref_class="set_128" mentiontype="np" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+<markable id="markable_609" span="word_1862..word_1862" coref_class="set_120" mentiontype="pro" coreftype="ident" topic="nan" reference="NaN" mmax_level="coref" />
+<markable id="markable_481" span="word_1882..word_1886" coref_class="set_24" mentiontype="ne" coreftype="ident" topic="compact of free association" reference="NaN" mmax_level="coref" />
+<markable id="markable_610" span="word_1888..word_1888" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="federated states of micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_337" span="word_1911..word_1911" coref_class="set_120" mentiontype="ne" coreftype="ident" topic="micronesia" reference="NaN" mmax_level="coref" />
+<markable id="markable_475" span="word_1913..word_1914" coref_class="set_128" mentiontype="ne" coreftype="ident" topic="united states of america" reference="NaN" mmax_level="coref" />
+</markables>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+<markable id="markable_324" span="word_55..word_56" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_323" span="word_44..word_45" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_447" span="word_585..word_588" reference="nan"  mentiontype="ne"  coref_class="set_23"  mmax_level="coref"  topic="internal revenue service"  coreftype="ident" />
+<markable id="markable_325" span="word_58..word_60" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_446" span="word_460" reference="nan"  mentiontype="pro"  coref_class="set_65"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_320" span="word_11..word_22" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_441" span="word_348" reference="nan"  mentiontype="ne"  coref_class="set_5004"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_440" span="word_336..word_338" reference="nan"  mentiontype="ne"  coref_class="set_5003"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_322" span="word_37..word_39" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_443" span="word_423" reference="nan"  mentiontype="pro"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_442" span="word_360" reference="nan"  mentiontype="ne"  coref_class="set_63"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_317" span="word_365..word_367" reference="nan"  mentiontype="ne"  coref_class="set_61"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_437" span="word_442..word_443" reference="nan"  mentiontype="ne"  coref_class="set_18"  mmax_level="coref"  topic="fedex office"  coreftype="ident" />
+<markable id="markable_319" span="word_7..word_8" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_318" span="word_1..word_2" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_439" span="word_340..word_343" reference="nan"  mentiontype="np"  coref_class="set_5003"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_335" span="word_193" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_334" span="word_186..word_187" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex"  coreftype="atr" />
+<markable id="markable_337" span="word_222" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_336" span="word_217" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_457" span="word_573" reference="nan"  mentiontype="pro"  coref_class="set_68"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_333" span="word_181" reference="nan"  mentiontype="pro"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_332" span="word_167..word_168" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_453" span="word_501" reference="nan"  mentiontype="pro"  coref_class="set_49"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_328" span="word_83..word_84" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_449" span="word_524..word_525" reference="nan"  mentiontype="ne"  coref_class="set_23"  mmax_level="coref"  topic="internal revenue service"  coreftype="ident" />
+<markable id="markable_327" span="word_68..word_69" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_448" span="word_469..word_471" reference="nan"  mentiontype="ne"  coref_class="set_23"  mmax_level="coref"  topic="internal revenue service"  coreftype="ident" />
+<markable id="markable_329" span="word_92" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_340" span="word_264..word_265" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_461" span="word_590" reference="nan"  mentiontype="pro"  coref_class="set_23"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_346" span="word_369..word_370" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_345" span="word_345" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_466" span="word_1139" reference="nan"  mentiontype="ne"  coref_class="set_5009"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_348" span="word_393" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_502" span="word_1189" reference="nan"  mentiontype="ne"  coref_class="set_45"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_347" span="word_382" reference="nan"  mentiontype="pro"  coref_class="set_18"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_468" span="word_658" reference="nan"  mentiontype="pro"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_501" span="word_1173" reference="nan"  mentiontype="ne"  coref_class="set_45"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_342" span="word_287..word_289" reference="nan"  mentiontype="ne"  coref_class="set_50"  mmax_level="coref"  topic="fedex"  coreftype="cop" />
+<markable id="markable_463" span="word_650" reference="nan"  mentiontype="ne"  coref_class="set_5007"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_341" span="word_273..word_274" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_462" span="word_646..word_648" reference="nan"  mentiontype="ne"  coref_class="set_5007"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_344" span="word_334" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_465" span="word_1139..word_1144" reference="nan"  mentiontype="np"  coref_class="set_79"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_343" span="word_302..word_304" reference="nan"  mentiontype="ne"  coref_class="set_5002"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_464" span="word_733" reference="nan"  mentiontype="ne"  coref_class="set_79"  mmax_level="coref"  topic="united parcel service"  coreftype="ident" />
+<markable id="markable_339" span="word_258..word_259" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_338" span="word_226..word_227" reference="nan"  mentiontype="np"  coref_class="set_59"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_351" span="word_449" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_472" span="word_690" reference="nan"  mentiontype="pro"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_350" span="word_420" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_511" span="word_122..word_134" reference="nan"  mentiontype="np"  coref_class="set_6002"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_357" span="word_744..word_746" reference="nan"  mentiontype="ne"  coref_class="set_74"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_478" span="word_793" reference="nan"  mentiontype="np"  coref_class="set_34"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_356" span="word_674" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_477" span="word_800..word_801" reference="nan"  mentiontype="np"  coref_class="set_34"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_513" span="word_140..word_151" reference="nan"  mentiontype="np"  coref_class="set_6003"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_359" span="word_750" reference="nan"  mentiontype="pro"  coref_class="set_74"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_512" span="word_119..word_120" reference="nan"  mentiontype="ne"  coref_class="set_6002"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_358" span="word_744..word_745" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_479" span="word_821..word_822" reference="nan"  mentiontype="ne"  coref_class="set_35"  mmax_level="coref"  topic="henry maier"  coreftype="ident" />
+<markable id="markable_353" span="word_516" reference="nan"  mentiontype="pro"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_352" span="word_513" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_473" span="word_700..word_702" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_355" span="word_641" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_476" span="word_721" reference="nan"  mentiontype="pro"  coref_class="set_33"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_354" span="word_548" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_475" span="word_707..word_708" reference="nan"  mentiontype="np"  coref_class="set_33"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_508" span="word_104..word_109" reference="nan"  mentiontype="np"  coref_class="set_49"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_507" span="word_106..word_109" reference="nan"  mentiontype="np"  coref_class="set_5001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_509" span="word_114..word_117" reference="nan"  mentiontype="np"  coref_class="set_6001"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_504" span="word_1244" reference="nan"  mentiontype="pro"  coref_class="set_46"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_349" span="word_413" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_503" span="word_1237..word_1240" reference="nan"  mentiontype="ne"  coref_class="set_46"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_506" span="word_101" reference="nan"  mentiontype="ne"  coref_class="set_7"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_505" span="word_37..word_45" reference="nan"  mentiontype="np"  coref_class="set_47"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_360" span="word_752..word_758" reference="nan"  mentiontype="np"  coref_class="set_74"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_481" span="word_851" reference="nan"  mentiontype="np"  coref_class="set_75"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_480" span="word_830" reference="nan"  mentiontype="pro"  coref_class="set_35"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_362" span="word_788" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_483" span="word_859..word_860" reference="nan"  mentiontype="ne"  coref_class="set_40"  mmax_level="coref"  topic="wordmark"  coreftype="ident" />
+<markable id="markable_361" span="word_775" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_482" span="word_855" reference="nan"  mentiontype="pro"  coref_class="set_75"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_401" span="word_104" reference="nan"  mentiontype="ne"  coref_class="set_5001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_522" span="word_217..word_218" reference="nan"  mentiontype="np"  coref_class="set_59"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_489" span="word_913" reference="nan"  mentiontype="pro"  coref_class="set_77"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_368" span="word_996..word_997" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_521" span="word_101..word_102" reference="nan"  mentiontype="np"  coref_class="set_58"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_400" span="word_610..word_621" reference="nan"  mentiontype="np"  coref_class="set_49"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_488" span="word_901..word_906" reference="nan"  mentiontype="np"  coref_class="set_77"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_367" span="word_924" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_403" span="word_281..word_282" reference="nan"  mentiontype="ne"  coref_class="set_49"  mmax_level="coref"  topic="fedex ground"  coreftype="cop" />
+<markable id="markable_524" span="word_336..word_343" reference="nan"  mentiontype="ne"  coref_class="set_19"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_523" span="word_236..word_237" reference="nan"  mentiontype="ne"  coref_class="set_6004"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_402" span="word_279" reference="nan"  mentiontype="ne"  coref_class="set_49"  mmax_level="coref"  topic="fedex ground"  coreftype="ident" />
+<markable id="markable_369" span="word_1009..word_1010" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_364" span="word_844" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_363" span="word_819" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_520" span="word_104..word_165" reference="nan"  mentiontype="np"  coref_class="set_58"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_366" span="word_903..word_905" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_487" span="word_908..word_909" reference="nan"  mentiontype="ne"  coref_class="set_38"  mmax_level="coref"  topic="ex"  coreftype="ident" />
+<markable id="markable_486" span="word_883..word_884" reference="nan"  mentiontype="ne"  coref_class="set_38"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_515" span="word_295..word_296" reference="nan"  mentiontype="ne"  coref_class="set_54"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_514" span="word_136..word_138" reference="nan"  mentiontype="ne"  coref_class="set_6003"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_517" span="word_154..word_155" reference="nan"  mentiontype="ne"  coref_class="set_53"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_516" span="word_157..word_158" reference="nan"  mentiontype="ne"  coref_class="set_54"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_492" span="word_970..word_977" reference="nan"  mentiontype="ne"  coref_class="set_78"  mmax_level="coref"  topic="standard carrier alpha code"  coreftype="ident" />
+<markable id="markable_371" span="word_1097" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_491" span="word_923..word_925" reference="nan"  mentiontype="np"  coref_class="set_40"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_370" span="word_1071" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_494" span="word_1062..word_1066" reference="nan"  mentiontype="ne"  coref_class="set_42"  mmax_level="coref"  topic="united states postal service"  coreftype="ident" />
+<markable id="markable_373" span="word_1141..word_1142" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_493" span="word_979..word_986" reference="nan"  mentiontype="np"  coref_class="set_78"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_372" span="word_1128" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_379" span="word_24..word_28" reference="nan"  mentiontype="np"  coref_class="set_4"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_412" span="word_133..word_134" reference="nan"  mentiontype="ne"  coref_class="set_11"  mmax_level="coref"  topic="western united states"  coreftype="ident" />
+<markable id="markable_533" span="word_516..word_517" reference="nan"  mentiontype="np"  coref_class="set_67"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_378" span="word_30..word_53" reference="nan"  mentiontype="np"  coref_class="set_4"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_532" span="word_451..word_456" reference="nan"  mentiontype="np"  coref_class="set_65"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_411" span="word_827..word_828" reference="nan"  mentiontype="ne"  coref_class="set_49"  mmax_level="coref"  topic="fedex ground"  coreftype="ident" />
+<markable id="markable_414" span="word_473..word_475" reference="nan"  mentiontype="ne"  coref_class="set_11"  mmax_level="coref"  topic="united states of america"  coreftype="ident" />
+<markable id="markable_535" span="word_590..word_601" reference="nan"  mentiontype="np"  coref_class="set_6005"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_413" span="word_146..word_148" reference="nan"  mentiontype="ne"  coref_class="set_11"  mmax_level="coref"  topic="united states of america"  coreftype="ident" />
+<markable id="markable_534" span="word_565..word_567" reference="nan"  mentiontype="ne"  coref_class="set_68"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_375" span="word_1254..word_1255" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex"  coreftype="ident" />
+<markable id="markable_495" span="word_1079..word_1080" reference="nan"  mentiontype="ne"  coref_class="set_42"  mmax_level="coref"  topic="united states postal service"  coreftype="ident" />
+<markable id="markable_374" span="word_1212..word_1214" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_531" span="word_454..word_456" reference="nan"  mentiontype="np"  coref_class="set_5005"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_410" span="word_627..word_629" reference="nan"  mentiontype="ne"  coref_class="set_49"  mmax_level="coref"  topic="fedex ground"  coreftype="ident" />
+<markable id="markable_530" span="word_451..word_452" reference="nan"  mentiontype="ne"  coref_class="set_5005"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_497" span="word_1180" reference="nan"  mentiontype="pro"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_409" span="word_627..word_630" reference="nan"  mentiontype="np"  coref_class="set_70"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_529" span="word_387..word_388" reference="nan"  mentiontype="ne"  coref_class="set_64"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_408" span="word_617..word_620" reference="nan"  mentiontype="ne"  coref_class="set_5006"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_526" span="word_350..word_356" reference="nan"  mentiontype="ne"  coref_class="set_5004"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_405" span="word_481..word_483" reference="nan"  mentiontype="ne"  coref_class="set_49"  mmax_level="coref"  topic="fedex ground"  coreftype="ident" />
+<markable id="markable_525" span="word_358" reference="nan"  mentiontype="ne"  coref_class="set_19"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_404" span="word_461..word_462" reference="nan"  mentiontype="ne"  coref_class="set_65"  mmax_level="coref"  topic="fedex ground"  coreftype="ident" />
+<markable id="markable_528" span="word_348..word_356" reference="nan"  mentiontype="np"  coref_class="set_63"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_407" span="word_610..word_615" reference="nan"  mentiontype="ne"  coref_class="set_5006"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_527" span="word_358..word_360" reference="nan"  mentiontype="np"  coref_class="set_61"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_406" span="word_520" reference="nan"  mentiontype="pro"  coref_class="set_67"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_384" span="word_181..word_187" reference="nan"  mentiontype="np"  coref_class="set_47"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_423" span="word_239..word_244" reference="nan"  mentiontype="np"  coref_class="set_6004"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_544" span="word_976" reference="nan"  mentiontype="ne"  coref_class="set_5008"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_389" span="word_90" reference="nan"  mentiontype="ne"  coref_class="set_7"  mmax_level="coref"  topic="roadway services"  coreftype="ident" />
+<markable id="markable_543" span="word_970..word_974" reference="nan"  mentiontype="ne"  coref_class="set_5008"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_425" span="word_261" reference="nan"  mentiontype="pro"  coref_class="set_80"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_546" span="word_1141..word_1144" reference="nan"  mentiontype="np"  coref_class="set_5009"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_545" span="word_999..word_1007" reference="nan"  mentiontype="np"  coref_class="set_80"  mmax_level="coref"  coreftype="cop" />
+<markable id="markable_386" span="word_181..word_184" reference="nan"  mentiontype="np"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_540" span="word_658..word_659" reference="nan"  mentiontype="ne"  coref_class="set_73"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_385" span="word_37..word_42" reference="nan"  mentiontype="np"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_388" span="word_79..word_81" reference="nan"  mentiontype="ne"  coref_class="set_7"  mmax_level="coref"  topic="roadway services"  coreftype="ident" />
+<markable id="markable_421" span="word_208" reference="nan"  mentiontype="ne"  coref_class="set_14"  mmax_level="coref"  topic="ba"  coreftype="ident" />
+<markable id="markable_542" span="word_918..word_921" reference="nan"  mentiontype="np"  coref_class="set_77"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_387" span="word_154..word_158" reference="nan"  mentiontype="np"  coref_class="set_5002"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_420" span="word_204..word_205" reference="nan"  mentiontype="ne"  coref_class="set_14"  mmax_level="coref"  topic="british airways"  coreftype="ident" />
+<markable id="markable_541" span="word_848..word_849" reference="nan"  mentiontype="np"  coref_class="set_75"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_419" span="word_230" reference="nan"  mentiontype="pro"  coref_class="set_59"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_537" span="word_501..word_502" reference="nan"  mentiontype="np"  coref_class="set_70"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_536" span="word_603..word_607" reference="nan"  mentiontype="np"  coref_class="set_6005"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_415" span="word_1005..word_1007" reference="nan"  mentiontype="ne"  coref_class="set_11"  mmax_level="coref"  topic="united states of america"  coreftype="ident" />
+<markable id="markable_418" span="word_178..word_179" reference="nan"  mentiontype="np"  coref_class="set_58"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_539" span="word_646..word_655" reference="nan"  mentiontype="np"  coref_class="set_73"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_538" span="word_646..word_651" reference="nan"  mentiontype="np"  coref_class="set_79"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_393" span="word_292..word_296" reference="nan"  mentiontype="np"  coref_class="set_5002"  mmax_level="coref"  topic="roadway services"  coreftype="ident" />
+<markable id="markable_394" span="word_292..word_293" reference="nan"  mentiontype="ne"  coref_class="set_53"  mmax_level="coref"  topic="roadway services"  coreftype="ident" />
+<markable id="markable_434" span="word_406..word_408" reference="nan"  mentiontype="ne"  coref_class="set_18"  mmax_level="coref"  topic="fedex office"  coreftype="ident" />
+<markable id="markable_433" span="word_383..word_385" reference="nan"  mentiontype="ne"  coref_class="set_18"  mmax_level="coref"  topic="fedex office"  coreftype="ident" />
+<markable id="markable_436" span="word_437..word_439" reference="nan"  mentiontype="ne"  coref_class="set_18"  mmax_level="coref"  topic="fedex office"  coreftype="ident" />
+<markable id="markable_397" span="word_402..word_403" reference="nan"  mentiontype="np"  coref_class="set_64"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_430" span="word_919..word_920" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex express"  coreftype="ident" />
+<markable id="markable_551" span="word_1275..word_1281" reference="nan"  mentiontype="np"  coref_class="set_83"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_550" span="word_1251..word_1261" reference="nan"  mentiontype="np"  coref_class="set_83"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_399" span="word_111..word_112" reference="nan"  mentiontype="ne"  coref_class="set_6001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_432" span="word_374..word_376" reference="nan"  mentiontype="ne"  coref_class="set_18"  mmax_level="coref"  topic="fedex office"  coreftype="ident" />
+<markable id="markable_553" span="word_87..word_90" mentiontype="np"  coref_class="set_6006"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_398" span="word_284..word_285" reference="nan"  mentiontype="ne"  coref_class="set_50"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_552" span="word_76..word_84" mentiontype="np"  coref_class="set_6006"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_548" span="word_1229" reference="nan"  mentiontype="pro"  coref_class="set_81"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_426" span="word_276..word_277" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex express"  coreftype="ident" />
+<markable id="markable_547" span="word_1191..word_1192" reference="nan"  mentiontype="ne"  coref_class="set_80"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_429" span="word_760..word_761" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="fedex express"  coreftype="ident" />
+<markable id="markable_549" span="word_1263..word_1265" reference="nan"  mentiontype="np"  coref_class="set_83"  mmax_level="coref"  coreftype="ident" />
+</markables>

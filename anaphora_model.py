@@ -4,12 +4,13 @@ import allennlp
 
 class AnaphoraModel():
   """
-  Writes out annotations for a document, represented as a list of tokens, in MMAX standoff format, to the path identified by the destination argument.
+  Writes out annotations for a document, represented as a list of tokens, in MMAX standoff format, to the path
+  identified by the destination argument.
   """
   model = allennlp.models.coreference_resolution.coref
 
 
-  ba_words = ./WikiCoref/Annotation/Barack_Obama/Barack Obama.txt
+  #ba_words = WikiCoref/Annotation/Barack_Obama/Barack Obama.txt
 
   predictor = allennlp.predictors.coref
 

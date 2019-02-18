@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+<markable id="markable_681" span="word_357..word_366" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_680" span="word_288..word_297" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_687" span="word_528..word_529" reference="nan"  mentiontype="np"  coref_class="set_90"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_445" span="word_830" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_566" span="word_902..word_903" reference="nan"  mentiontype="np"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_324" span="word_1247..word_1249" reference="nan"  mentiontype="np"  coref_class="set_104"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_444" span="word_817" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_565" span="word_830..word_832" reference="nan"  mentiontype="np"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_323" span="word_1227" reference="nan"  mentiontype="pro"  coref_class="set_2"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_689" span="word_648..word_650" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_447" span="word_973..word_974" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_326" span="word_1263..word_1264" reference="nan"  mentiontype="np"  coref_class="set_107"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_568" span="word_1917" reference="nan"  mentiontype="ne"  coref_class="set_40"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_688" span="word_597" reference="nan"  mentiontype="ne"  coref_class="set_91"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_567" span="word_685" reference="nan"  mentiontype="ne"  coref_class="set_40"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_446" span="word_866" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_325" span="word_1254" reference="nan"  mentiontype="pro"  coref_class="set_104"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_683" span="word_482..word_488" reference="nan"  mentiontype="np"  coref_class="set_87"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_441" span="word_735" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_320" span="word_1185..word_1186" reference="nan"  mentiontype="np"  coref_class="set_107"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_682" span="word_413..word_423" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_561" span="word_700..word_702" reference="nan"  mentiontype="ne"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_440" span="word_708" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_443" span="word_814" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_564" span="word_817..word_818" reference="nan"  mentiontype="np"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_322" span="word_1219" reference="nan"  mentiontype="np"  coref_class="set_2"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_684" span="word_492..word_507" reference="nan"  mentiontype="ne"  coref_class="set_88"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_563" span="word_739..word_740" reference="nan"  mentiontype="np"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_442" span="word_753" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_438" span="word_670" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_559" span="word_674" reference="nan"  mentiontype="np"  coref_class="set_38"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_437" span="word_657" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_558" span="word_1661..word_1663" reference="nan"  mentiontype="ne"  coref_class="set_38"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_319" span="word_1027" reference="nan"  mentiontype="np"  coref_class="set_2"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_439" span="word_704" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_690" span="word_636..word_643" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_692" span="word_655" reference="nan"  mentiontype="np"  coref_class="set_18"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_450" span="word_1070" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_571" span="word_1675..word_1678" reference="nan"  mentiontype="ne"  coref_class="set_41"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_691" span="word_660..word_661" reference="nan"  mentiontype="np"  coref_class="set_18"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_335" span="word_1..word_16" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="#06fgh"  coreftype="ident" />
+<markable id="markable_577" span="word_743..word_745" reference="nan"  mentiontype="np"  coref_class="set_5003"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_698" span="word_1015..word_1016" reference="nan"  mentiontype="np"  coref_class="set_113"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_456" span="word_1393" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_576" span="word_747..word_768" reference="nan"  mentiontype="np"  coref_class="set_5003"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_697" span="word_998..word_999" reference="nan"  mentiontype="np"  coref_class="set_113"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_455" span="word_1356" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_337" span="word_18..word_22" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_458" span="word_1519" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_578" span="word_757..word_763" reference="nan"  mentiontype="np"  coref_class="set_95"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_699" span="word_1062..word_1063" reference="nan"  mentiontype="np"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_457" span="word_1433" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_694" span="word_698..word_702" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_452" span="word_1179" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_573" span="word_1680" reference="nan"  mentiontype="pro"  coref_class="set_41"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_331" span="word_1693" reference="nan"  mentiontype="ne"  coref_class="set_2"  mmax_level="coref"  topic="canadians"  coreftype="ident" />
+<markable id="markable_693" span="word_681..word_682" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_451" span="word_1125" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_330" span="word_1501" reference="nan"  mentiontype="np"  coref_class="set_2"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_333" span="word_157..word_164" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_575" span="word_771" reference="nan"  mentiontype="pro"  coref_class="set_125"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_696" span="word_845..word_846" reference="nan"  mentiontype="np"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_454" span="word_1318" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_695" span="word_747..word_751" reference="nan"  mentiontype="np"  coref_class="set_95"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_453" span="word_1295..word_1296" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_332" span="word_1712" reference="nan"  mentiontype="np"  coref_class="set_107"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_449" span="word_1039..word_1040" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_328" span="word_1266" reference="nan"  mentiontype="pro"  coref_class="set_107"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_569" span="word_718..word_721" reference="nan"  mentiontype="ne"  coref_class="set_41"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_448" span="word_1005" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_329" span="word_1361" reference="nan"  mentiontype="ne"  coref_class="set_2"  mmax_level="coref"  topic="income tax"  coreftype="ident" />
+<markable id="markable_340" span="word_72..word_74" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_582" span="word_809..word_811" reference="nan"  mentiontype="np"  coref_class="set_45"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_461" span="word_1549" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_581" span="word_798..word_800" reference="nan"  mentiontype="np"  coref_class="set_45"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_460" span="word_1545..word_1546" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_346" span="word_154..word_155" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_467" span="word_1707" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_345" span="word_121" reference="nan"  mentiontype="pro"  coref_class="set_121"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_587" span="word_966..word_967" reference="nan"  mentiontype="ne"  coref_class="set_46"  mmax_level="coref"  topic="wilfrid laurier"  coreftype="ident" />
+<markable id="markable_466" span="word_1667..word_1734" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_469" span="word_1796" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_347" span="word_166..word_170" reference="nan"  mentiontype="ne"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_468" span="word_1773..word_1774" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_342" span="word_99" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_584" span="word_825..word_827" reference="nan"  mentiontype="ne"  coref_class="set_46"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_463" span="word_1623" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_583" span="word_1082..word_1084" reference="nan"  mentiontype="ne"  coref_class="set_46"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_462" span="word_1592" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_344" span="word_118" reference="nan"  mentiontype="np"  coref_class="set_121"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_586" span="word_952..word_953" reference="nan"  mentiontype="ne"  coref_class="set_46"  mmax_level="coref"  topic="wilfrid laurier"  coreftype="ident" />
+<markable id="markable_465" span="word_1665" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_585" span="word_850..word_851" reference="nan"  mentiontype="ne"  coref_class="set_46"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_464" span="word_1652..word_1653" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_339" span="word_62" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_338" span="word_24" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_459" span="word_1540" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_470" span="word_1810" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_590" span="word_862..word_864" reference="nan"  mentiontype="ne"  coref_class="set_111"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_351" span="word_216" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_472" span="word_1837" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_350" span="word_204" reference="nan"  mentiontype="pro"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_471" span="word_1834" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_478" span="word_124..word_125" reference="nan"  mentiontype="ne"  coref_class="set_6001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_477" span="word_121..word_122" reference="nan"  mentiontype="np"  coref_class="set_6001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_479" span="word_127..word_152" reference="nan"  mentiontype="np"  coref_class="set_6001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_595" span="word_1600..word_1602" reference="nan"  mentiontype="ne"  coref_class="set_111"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_352" span="word_482..word_483" reference="nan"  mentiontype="ne"  coref_class="set_86"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_594" span="word_1451..word_1452" reference="nan"  mentiontype="np"  coref_class="set_111"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_473" span="word_1858" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_597" span="word_1946..word_1948" reference="nan"  mentiontype="ne"  coref_class="set_111"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_349" span="word_174" reference="nan"  mentiontype="pro"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_481" span="word_216..word_220" reference="nan"  mentiontype="np"  coref_class="set_14"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_360" span="word_1127..word_1129" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_480" span="word_1208..word_1209" reference="nan"  mentiontype="np"  coref_class="set_6004"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_483" span="word_246" reference="nan"  mentiontype="pro"  coref_class="set_14"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_362" span="word_1131" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_482" span="word_241" reference="nan"  mentiontype="pro"  coref_class="set_14"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_489" span="word_269" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_368" span="word_1770..word_1771" reference="nan"  mentiontype="ne"  coref_class="set_128"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_488" span="word_264" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_367" span="word_1745" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_369" span="word_1882..word_1884" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_485" span="word_252" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_364" span="word_1147" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_484" span="word_246..word_267" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_363" span="word_1142" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_487" span="word_258" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_486" span="word_254" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_365" span="word_1736..word_1738" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_492" span="word_275..word_278" reference="nan"  mentiontype="np"  coref_class="set_83"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_494" span="word_285" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_373" span="word_1861..word_1864" reference="nan"  mentiontype="ne"  coref_class="set_4"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_372" span="word_12..word_15" reference="nan"  mentiontype="ne"  coref_class="set_4"  mmax_level="coref"  topic="$date"  coreftype="ident" />
+<markable id="markable_493" span="word_269..word_273" reference="nan"  mentiontype="np"  coref_class="set_83"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_379" span="word_1170" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_378" span="word_1117" reference="nan"  mentiontype="np"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_496" span="word_1783" reference="nan"  mentiontype="ne"  coref_class="set_18"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_495" span="word_305" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_377" span="word_1007" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_497" span="word_277" reference="nan"  mentiontype="np"  coref_class="set_18"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_382" span="word_1396" reference="nan"  mentiontype="pro"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_381" span="word_1382" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_384" span="word_1448" reference="nan"  mentiontype="pro"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_383" span="word_1440" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_380" span="word_1173" reference="nan"  mentiontype="pro"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_389" span="word_1826..word_1827" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="canada"  coreftype="ident" />
+<markable id="markable_700" span="word_1074..word_1075" reference="nan"  mentiontype="ne"  coref_class="set_18"  mmax_level="coref"  topic="liberal party of canada"  coreftype="ident" />
+<markable id="markable_386" span="word_1552" reference="nan"  mentiontype="np"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_385" span="word_1465" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_388" span="word_1802" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_387" span="word_1633" reference="nan"  mentiontype="ne"  coref_class="set_62"  mmax_level="coref"  topic="canada"  coreftype="ident" />
+<markable id="markable_393" span="word_988" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_392" span="word_978..word_981" reference="nan"  mentiontype="np"  coref_class="set_128"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_394" span="word_990" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_391" span="word_27..word_43" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_390" span="word_159..word_161" reference="nan"  mentiontype="ne"  coref_class="set_128"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_711" span="word_1340..word_1354" reference="nan"  mentiontype="np"  coref_class="set_6005"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_710" span="word_1335..word_1338" reference="nan"  mentiontype="np"  coref_class="set_6005"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_399" span="word_308..word_309" reference="nan"  mentiontype="ne"  coref_class="set_119"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_398" span="word_151..word_152" reference="nan"  mentiontype="ne"  coref_class="set_119"  mmax_level="coref"  topic="nova scotia"  coreftype="ident" />
+<markable id="markable_706" span="word_1259" reference="nan"  mentiontype="np"  coref_class="set_112"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_705" span="word_1211..word_1214" reference="nan"  mentiontype="np"  coref_class="set_6004"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_708" span="word_1300..word_1301" reference="nan"  mentiontype="np"  coref_class="set_128"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_707" span="word_1269..word_1274" reference="nan"  mentiontype="np"  coref_class="set_107"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_702" span="word_1160" reference="nan"  mentiontype="np"  coref_class="set_100"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_701" span="word_1149..word_1158" reference="nan"  mentiontype="np"  coref_class="set_100"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_704" span="word_1175..word_1177" reference="nan"  mentiontype="np"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_703" span="word_1165..word_1166" reference="nan"  mentiontype="np"  coref_class="set_113"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_709" span="word_1329..word_1333" reference="nan"  mentiontype="np"  coref_class="set_112"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_720" span="word_1842..word_1844" reference="nan"  mentiontype="np"  coref_class="set_116"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_722" span="word_1905..word_1911" reference="nan"  mentiontype="np"  coref_class="set_124"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_721" span="word_1889..word_1896" reference="nan"  mentiontype="np"  coref_class="set_5004"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_716" span="word_1760..word_1771" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_719" span="word_1846..word_1856" reference="nan"  mentiontype="np"  coref_class="set_116"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_713" span="word_1418..word_1431" reference="nan"  mentiontype="np"  coref_class="set_111"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_712" span="word_1396..word_1405" reference="nan"  mentiontype="np"  coref_class="set_110"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_715" span="word_1454..word_1455" reference="nan"  mentiontype="np"  coref_class="set_113"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_714" span="word_1430" reference="nan"  mentiontype="np"  coref_class="set_112"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_730" span="word_374..word_375" reference="nan"  mentiontype="ne"  coref_class="set_6002"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_733" span="word_453..word_467" reference="nan"  mentiontype="np"  coref_class="set_124"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_612" span="word_983..word_986" reference="nan"  mentiontype="ne"  coref_class="set_113"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_732" span="word_378..word_382" reference="nan"  mentiontype="np"  coref_class="set_6002"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_607" span="word_949" reference="nan"  mentiontype="pro"  coref_class="set_50"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_727" span="word_113..word_114" reference="nan"  mentiontype="np"  coref_class="set_120"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_606" span="word_942..word_943" reference="nan"  mentiontype="np"  coref_class="set_50"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_729" span="word_99..word_109" reference="nan"  mentiontype="np"  coref_class="set_121"  mmax_level="coref"  topic="#nan"  coreftype="ident" />
+<markable id="markable_603" span="word_1325..word_1327" reference="nan"  mentiontype="np"  coref_class="set_112"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_724" span="word_1922..word_1948" reference="nan"  mentiontype="np"  coref_class="set_124"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_602" span="word_884..word_886" reference="nan"  mentiontype="np"  coref_class="set_112"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_726" span="word_140..word_141" reference="nan"  mentiontype="np"  coref_class="set_120"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_605" span="word_1414" reference="nan"  mentiontype="np"  coref_class="set_112"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_725" span="word_83..word_84" reference="nan"  mentiontype="ne"  coref_class="set_119"  mmax_level="coref"  topic="#059t8"  coreftype="ident" />
+<markable id="markable_742" span="word_361..word_363" mentiontype="np"  coref_class="set_6006"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_741" span="word_1886..word_1896" reference="nan"  mentiontype="np"  coref_class="set_124"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_502" span="word_319" reference="nan"  mentiontype="ne"  coref_class="set_20"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_743" span="word_364..word_366" mentiontype="ne"  coref_class="set_6006"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_740" span="word_1669..word_1670" reference="nan"  mentiontype="ne"  coref_class="set_128"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_739" span="word_978..word_986" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_738" span="word_857..word_858" reference="nan"  mentiontype="np"  coref_class="set_6003"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_614" span="word_1036..word_1037" reference="nan"  mentiontype="ne"  coref_class="set_113"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_737" span="word_855" reference="nan"  mentiontype="ne"  coref_class="set_6003"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_736" span="word_743..word_769" reference="nan"  mentiontype="ne"  coref_class="set_125"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_615" span="word_1353..word_1354" reference="nan"  mentiontype="ne"  coref_class="set_113"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_631" span="word_1402..word_1405" reference="nan"  mentiontype="np"  coref_class="set_61"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_510" span="word_1936" reference="nan"  mentiontype="ne"  coref_class="set_20"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_634" span="word_1385..word_1391" reference="nan"  mentiontype="np"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_633" span="word_1590..word_1591" reference="nan"  mentiontype="ne"  coref_class="set_61"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_508" span="word_748" reference="nan"  mentiontype="np"  coref_class="set_20"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_504" span="word_465" reference="nan"  mentiontype="ne"  coref_class="set_20"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_625" span="word_1251" reference="nan"  mentiontype="ne"  coref_class="set_58"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_503" span="word_396" reference="nan"  mentiontype="ne"  coref_class="set_20"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_506" span="word_709" reference="nan"  mentiontype="ne"  coref_class="set_20"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_505" span="word_563" reference="nan"  mentiontype="ne"  coref_class="set_20"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_626" span="word_1391" reference="nan"  mentiontype="ne"  coref_class="set_58"  mmax_level="coref"  topic="borden"  coreftype="ident" />
+<markable id="markable_522" span="word_431" reference="nan"  mentiontype="ne"  coref_class="set_24"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_401" span="word_572..word_573" reference="nan"  mentiontype="ne"  coref_class="set_119"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_643" span="word_1507" reference="nan"  mentiontype="ne"  coref_class="set_66"  mmax_level="coref"  topic="new zealand"  coreftype="ident" />
+<markable id="markable_400" span="word_354..word_355" reference="nan"  mentiontype="ne"  coref_class="set_119"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_521" span="word_407..word_409" reference="nan"  mentiontype="ne"  coref_class="set_24"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_642" span="word_1613" reference="nan"  mentiontype="ne"  coref_class="set_65"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_403" span="word_68..word_70" reference="nan"  mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="#06b19"  coreftype="ident" />
+<markable id="markable_524" span="word_405..word_409" reference="nan"  mentiontype="np"  coref_class="set_25"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_645" span="word_1509..word_1510" reference="nan"  mentiontype="np"  coref_class="set_67"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_523" span="word_695..word_696" reference="nan"  mentiontype="ne"  coref_class="set_24"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_644" span="word_1538" reference="nan"  mentiontype="np"  coref_class="set_66"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_520" span="word_429" reference="nan"  mentiontype="ne"  coref_class="set_23"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_641" span="word_1505" reference="nan"  mentiontype="ne"  coref_class="set_65"  mmax_level="coref"  topic="dominion of newfoundland"  coreftype="ident" />
+<markable id="markable_640" span="word_1627..word_1628" reference="nan"  mentiontype="ne"  coref_class="set_64"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_519" span="word_405" reference="nan"  mentiontype="ne"  coref_class="set_23"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_518" span="word_391..word_392" reference="nan"  mentiontype="ne"  coref_class="set_23"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_636" span="word_1407" reference="nan"  mentiontype="np"  coref_class="set_110"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_635" span="word_1556..word_1557" reference="nan"  mentiontype="np"  coref_class="set_62"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_517" span="word_362" reference="nan"  mentiontype="np"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_638" span="word_1481..word_1486" reference="nan"  mentiontype="ne"  coref_class="set_64"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_516" span="word_690" reference="nan"  mentiontype="ne"  coref_class="set_96"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_533" span="word_453..word_459" reference="nan"  mentiontype="ne"  coref_class="set_5002"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_653" span="word_1569..word_1572" reference="nan"  mentiontype="np"  coref_class="set_114"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_656" span="word_1656..word_1657" reference="nan"  mentiontype="np"  coref_class="set_114"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_535" span="word_1886..word_1887" reference="nan"  mentiontype="ne"  coref_class="set_5004"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_534" span="word_461..word_467" reference="nan"  mentiontype="np"  coref_class="set_5002"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_655" span="word_1608..word_1609" reference="nan"  mentiontype="np"  coref_class="set_112"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_650" span="word_1559" reference="nan"  mentiontype="pro"  coref_class="set_69"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_652" span="word_1574" reference="nan"  mentiontype="pro"  coref_class="set_70"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_651" span="word_1563..word_1566" reference="nan"  mentiontype="np"  coref_class="set_70"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_408" span="word_291..word_292" reference="nan"  mentiontype="np"  coref_class="set_9"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_526" span="word_469" reference="nan"  mentiontype="pro"  coref_class="set_90"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_404" span="word_65..word_70" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_525" span="word_429..word_431" reference="nan"  mentiontype="np"  coref_class="set_25"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_646" span="word_1615..word_1616" reference="nan"  mentiontype="np"  coref_class="set_67"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_407" span="word_80..word_81" reference="nan"  mentiontype="np"  coref_class="set_9"  mmax_level="coref"  topic="#07c5v_"  coreftype="ident" />
+<markable id="markable_649" span="word_1545..word_1547" reference="nan"  mentiontype="np"  coref_class="set_69"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_527" span="word_490" reference="nan"  mentiontype="pro"  coref_class="set_87"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_406" span="word_1750..word_1752" reference="nan"  mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_423" span="word_451" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_422" span="word_440" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_425" span="word_479" reference="nan"  mentiontype="np"  coref_class="set_85"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_546" span="word_1852..word_1856" reference="nan"  mentiontype="ne"  coref_class="set_32"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_667" span="word_1952..word_1960" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_424" span="word_476" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_545" span="word_582..word_586" reference="nan"  mentiontype="ne"  coref_class="set_32"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_666" span="word_1950" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_540" span="word_490..word_491" reference="nan"  mentiontype="np"  coref_class="set_88"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_421" span="word_420" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_420" span="word_411" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_419" span="word_387" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_416" span="word_166..word_167" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="robert borden"  coreftype="ident" />
+<markable id="markable_537" span="word_1914" reference="nan"  mentiontype="pro"  coref_class="set_124"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_536" span="word_1902" reference="nan"  mentiontype="pro"  coref_class="set_124"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_418" span="word_370" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_417" span="word_349" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_538" span="word_1919" reference="nan"  mentiontype="pro"  coref_class="set_124"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_670" span="word_47..word_54" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_676" span="word_174..word_175" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_434" span="word_629" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_675" span="word_104..word_109" reference="nan"  mentiontype="np"  coref_class="set_5001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_433" span="word_557" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_678" span="word_190..word_200" reference="nan"  mentiontype="np"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_436" span="word_654..word_668" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="cop" />
+<markable id="markable_677" span="word_178..word_187" reference="nan"  mentiontype="np"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_435" span="word_652" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_672" span="word_86..word_96" reference="nan"  mentiontype="np"  coref_class="set_9"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_430" span="word_512" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_551" span="word_621" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_550" span="word_599" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_671" span="word_1747..word_1756" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="queen's university"  coreftype="ident" />
+<markable id="markable_674" span="word_99..word_102" reference="nan"  mentiontype="ne"  coref_class="set_5001"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_432" span="word_546" reference="nan"  mentiontype="pro"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_553" span="word_614" reference="nan"  mentiontype="ne"  coref_class="set_91"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_673" span="word_29..word_32" reference="nan"  mentiontype="ne"  coref_class="set_128"  mmax_level="coref"  topic="#060m4"  coreftype="ident" />
+<markable id="markable_431" span="word_537" reference="nan"  mentiontype="ne"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_426" span="word_482..word_507" reference="nan"  mentiontype="ne"  coref_class="set_85"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_428" span="word_485" reference="nan"  mentiontype="pro"  coref_class="set_86"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_549" span="word_588..word_597" reference="nan"  mentiontype="np"  coref_class="set_127"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+</markables>

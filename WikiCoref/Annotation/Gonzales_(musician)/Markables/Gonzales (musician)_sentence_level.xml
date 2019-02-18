@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/sentence">
+<markable mmax_level="sentence" id="markable_1" span="word_1..word_32" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_2" span="word_33..word_54" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_3" span="word_55..word_90" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_4" span="word_91..word_134" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_5" span="word_135..word_160" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_6" span="word_161..word_197" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_7" span="word_198..word_217" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_8" span="word_218..word_238" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_9" span="word_239..word_279" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_10" span="word_280..word_316" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_11" span="word_317..word_358" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_12" span="word_359..word_404" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_13" span="word_405..word_460" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_14" span="word_461..word_479" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_15" span="word_480..word_516" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_16" span="word_517..word_554" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_17" span="word_555..word_561" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_18" span="word_562..word_600" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_19" span="word_601..word_615" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_20" span="word_616..word_645" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_21" span="word_646..word_663" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_22" span="word_664..word_685" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_23" span="word_686..word_707" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_24" span="word_708..word_722" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_25" span="word_723..word_740" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_26" span="word_741..word_769" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_27" span="word_770..word_787" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_28" span="word_788..word_823" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_29" span="word_824..word_863" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_30" span="word_864..word_890" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_31" span="word_891..word_922" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_32" span="word_923..word_930" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_33" span="word_931..word_980" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_34" span="word_981..word_1017" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_35" span="word_1018..word_1034" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_36" span="word_1035..word_1053" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_37" span="word_1054..word_1107" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_38" span="word_1108..word_1125" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_39" span="word_1126..word_1171" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_40" span="word_1172..word_1196" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_41" span="word_1197..word_1221" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_42" span="word_1222..word_1232" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_43" span="word_1233..word_1264" imported_tag_type="empty" />
+<markable mmax_level="sentence" id="markable_44" span="word_1265..word_1276" imported_tag_type="empty" />
+</markables>
