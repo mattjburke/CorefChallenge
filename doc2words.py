@@ -8,6 +8,7 @@ Created on Sun Feb 17 15:10:34 2019
 import os
 from lxml import etree
 
+@staticmethod
 def doc2words(filename):
     if filename.lower().endswith('xml'):
         try:

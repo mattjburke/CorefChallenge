@@ -1,15 +1,18 @@
 import logging
 import warnings
 from allennlp.predictors.predictor import Predictor
+import doc2words
+import anaphora_model
 
 ## Just to ignore warning messages:
 logging.getLogger("allennlp").setLevel(logging.CRITICAL)
 warnings.filterwarnings("ignore")
-
+'''
 predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
 results = predictor.predict(
     document="My sister and I met her friends, and then she left with them and left me alone."
 )
+'''
 
 def clustersToString(pred_results):
     top_spans = pred_results.get('top_spans')
@@ -39,4 +42,10 @@ def clustersToString(pred_results):
 
     return clusters_dict
 
-print("Clusters: " + str(clustersToString(results)))
+#print("Clusters: " + str(clustersToString(results)))
+
+example = doc2words("WikiCoref/Annotation/Barack_Obama/Basedata/Barack Obama_words.xml")
+destination = 'test_output.txt'
+
+anaphora_model.predict_example(example, destination)
+
