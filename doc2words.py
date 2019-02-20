@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 17 15:10:34 2019
-
-@author: tseki
-"""
-
-import os
 from lxml import etree
 
 @staticmethod
@@ -35,6 +27,7 @@ def doc2words(filename):
     else:
         raise ValueError('Please input xml or txt.')
 
+'''
 base_path = './WikiCoref/Annotation/'
 
 xml2words = doc2words(base_path + 'Barack_Obama/Basedata/Barack Obama_words.xml')
@@ -43,7 +36,6 @@ txt2words = doc2words(base_path + 'Barack_Obama/Barack Obama.txt')
 print('xml2words: size=' + str(len(xml2words)) + ', last element = ' + xml2words[-1])
 print('txt2words: size=' + str(len(txt2words)) + ', last element = ' + txt2words[-1])
 
-'''
 # check all last lines of txt files:
 articles = os.listdir(base_path)
 for dir in articles:
