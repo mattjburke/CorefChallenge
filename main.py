@@ -1,7 +1,8 @@
 import logging
 import warnings
+import allennlp
 from allennlp.predictors.predictor import Predictor
-import doc2words
+#import doc2words
 import anaphora_model
 
 ## Just to ignore warning messages:
@@ -42,10 +43,49 @@ def clustersToString(pred_results):
 
     return clusters_dict
 
+
+from lxml import etree
+
+def doc2words(filename):
+    if filename.lower().endswith('xml'):
+        try:
+            root = etree.parse(filename).getroot()
+            words = []
+            for element in root:
+                words.append(element.text)
+            return words
+        except:
+            raise ValueError('File not found.')
+    elif filename.lower().endswith('txt'):
+        try:
+            words = []
+            with open(filename, encoding="utf8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line != '':
+                        words.append(line)
+            if words[-1] == '</markables>':
+                words.pop() # remove '</markables>' from last line
+            return words
+        except:
+            raise ValueError('File not found.')
+    else:
+        raise ValueError('Please input xml or txt.')
+
+
 #print("Clusters: " + str(clustersToString(results)))
 
 example = doc2words("WikiCoref/Annotation/Barack_Obama/Basedata/Barack Obama_words.xml")
+print(example[2])
 destination = 'test_output.txt'
 
-anaphora_model.predict_example(example, destination)
+#anaphora_model.predict_example(example, destination)
 
+#model = allennlp.models.coreference_resolution.coref.CoreferenceResolver()
+#predictor = allennlp.predictors.coref.CorefPredictor(model, )
+predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
+#dict = predictor.predict_tokenized(words)
+#mmax = dict_to_mmax(dict)
+file = open(destination, "a")
+clusters = predictor.predict_tokenized(example)
+file.write(clusters)
