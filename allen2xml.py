@@ -1,6 +1,5 @@
 import json
 from lxml import etree
-from collections import OrderedDict as odict
 import logging
 import warnings
 from doc2words import doc2words
@@ -97,10 +96,27 @@ def export2xml(path2json):
     for span in spans_dict:
         span_label = 'word_' + str(int(span[1:span.find(',')])+1) + '..word_' + str(int(span[span.find(',')+1:-1])+1)
         markable = etree.Element('markable', {'id': str(id), 'span': span_label})
-        markable.set('coref_class', spans_dict[span])
+        markable.set('coref_class', "set_"+spans_dict[span])
+        # TO-DO: Place here the in-between tags, in order.
+        markable.set('mmax_level', 'coref')
         markables.append(markable)
         id += 1
     etree.dump(markables)
 
+
+# Returns a set with all values that show up for a tag in an xml:
+def xml_tag_values2set(tag, path2xml):
+    try:
+        tag_vals = set()
+        root = etree.parse(path2xml).getroot()
+        for element in root:
+            tag_vals.add(element.get(tag))
+        return tag_vals
+    except:
+        raise ValueError('File not found.')
+
+
 path2json = 'Barack_Obama_AllenPrediction.json'
-export2xml(path2json)
+path2xml = './WikiCoref/Annotation/Barack_Obama/Markables/Barack Obama_coref_level.xml'
+#export2xml(path2json)
+print(xml_tag_values2set('mentiontype', path2xml))
