@@ -1,6 +1,11 @@
 # CorefChallenge
 Kingland competition coreference challenge.
 
+## Running MMAX2 (from Git Bash on Windows)
+
+On the terminal while in the MMAX2 directory, run:
+`./mmax2.bat`
+
 ## Try, for torch (=> allennlp) installation
 
 In no particular order, necessarily:
