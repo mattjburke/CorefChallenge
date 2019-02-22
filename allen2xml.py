@@ -90,7 +90,7 @@ def spans_w_coref(path2json):
 
 
 def export2xml(path2json):
-    markables = etree.Element('markables')
+    markables = etree.Element('markables', {'xmlns': "www.eml.org/NameSpaces/coref"})
     id = 0
     spans_dict = spans_w_coref(path2json)
     for span in spans_dict:
@@ -101,8 +101,8 @@ def export2xml(path2json):
         markable.set('mmax_level', 'coref')
         markables.append(markable)
         id += 1
-    etree.dump(markables)
-
+    with open('./TestOutput/Markables/Barack Obama_coref_level.xml', 'wb') as f:
+        f.write(etree.tostring(markables, pretty_print=True, encoding="utf-8", method="xml", doctype='<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE markables SYSTEM "markables.dtd">'))
 
 # Returns a set with all values that show up for a tag in an xml:
 def xml_tag_values2set(tag, path2xml):
@@ -118,5 +118,5 @@ def xml_tag_values2set(tag, path2xml):
 
 path2json = 'Barack_Obama_AllenPrediction.json'
 path2xml = './WikiCoref/Annotation/Barack_Obama/Markables/Barack Obama_coref_level.xml'
-#export2xml(path2json)
-print(xml_tag_values2set('mentiontype', path2xml))
+export2xml(path2json)
+#print(xml_tag_values2set('mentiontype', path2xml))
