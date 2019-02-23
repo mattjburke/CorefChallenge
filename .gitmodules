@@ -1,3 +1,0 @@
-[submodule "allennlp"]
-	path = allennlp
-	url = https://github.com/allenai/allennlp.git

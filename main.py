@@ -1,7 +1,7 @@
 import logging
 import warnings
 import allennlp
-from allennlp.predictors.predictor import Predictor
+from allennlp.allennlp.predictors.coref import CorefPredictor
 #import doc2words
 import anaphora_model
 
@@ -83,7 +83,7 @@ destination = 'test_output.txt'
 
 #model = allennlp.models.coreference_resolution.coref.CoreferenceResolver()
 #predictor = allennlp.predictors.coref.CorefPredictor(model, )
-predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
+predictor = CorefPredictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
 #dict = predictor.predict_tokenized(words)
 #mmax = dict_to_mmax(dict)
 file = open(destination, "a")

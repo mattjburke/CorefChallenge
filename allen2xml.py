@@ -118,5 +118,5 @@ def xml_tag_values2set(tag, path2xml):
 
 path2json = 'Barack_Obama_AllenPrediction.json'
 path2xml = './WikiCoref/Annotation/Barack_Obama/Markables/Barack Obama_coref_level.xml'
-export2xml(path2json)
-#print(xml_tag_values2set('mentiontype', path2xml))
+#export2xml(path2json)
+print(xml_tag_values2set('mentiontype', path2xml))
