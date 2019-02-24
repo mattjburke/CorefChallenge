@@ -122,32 +122,36 @@ def xml_tag_values2set(tag, path2xml):
 
 # Returns an array [wikidata_uri, freebase_uri] of the searched string str:
 def str2wikidata_freebase_uri(str):
-    wikidata_uri = "nan"
-    freebase_uri = "nan"
     url = "https://www.wikidata.org/w/api.php?action=wbsearchentities&search="+str+"&language=en&limit=1&format=json"
     response = requests.get(url).json()
-    result1 = response.get("search")[0] # <-- dict
-    wikidata_uri = result1.get("concepturi")
-    wiki_id = result1.get("id")
-    # Look for wiki_id's freebase id:
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-    sparql.setQuery("""
-    SELECT * WHERE {
-        ?item wdt:P31* wd:%s.
-        OPTIONAL { ?item wdt:P646 ?Freebase_ID. }
-    }
-    LIMIT 1
-    """%wiki_id)
-    sparql.setReturnFormat(JSON)
-    result2 = sparql.query().convert()
-    freebase_id = result2.get('results').get("bindings")[0].get('Freebase_ID').get('value')
-    last_char_index = freebase_id.rfind('/') # doing this to convert '/' to '.' in the freebase id.
-    freebase_uri = "http://rdf.freebase.com/ns" + freebase_id[:last_char_index] + '.' + freebase_id[last_char_index+1:]
-    return [wikidata_uri, freebase_uri]
+    try:
+        result1 = response.get("search")[0] # <-- dict
+        wikidata_uri = result1.get("concepturi")
+        wiki_id = result1.get("id")
+        # Look for wiki_id's freebase id:
+        sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+        sparql.setQuery("""
+        SELECT * WHERE {
+            ?item wdt:P31* wd:%s.
+            OPTIONAL { ?item wdt:P646 ?Freebase_ID. }
+        }
+        LIMIT 1
+        """%wiki_id)
+        sparql.setReturnFormat(JSON)
+        result2 = sparql.query().convert()
+        try:
+            freebase_id = result2.get('results').get("bindings")[0].get('Freebase_ID').get('value')
+            last_char_index = freebase_id.rfind('/') # doing this to convert '/' to '.' in the freebase id.
+            freebase_uri = "http://rdf.freebase.com/ns" + freebase_id[:last_char_index] + '.' + freebase_id[last_char_index+1:]
+            return [wikidata_uri, freebase_uri]
+        except:
+            return [wikidata_uri, "nan"]
+    except:
+        return ["nan", "nan"]
 
 
 path2json = 'Barack_Obama_AllenPrediction.json'
 path2xml = './WikiCoref/Annotation/Barack_Obama/Markables/Barack Obama_coref_level.xml'
 #export2xml(path2json)
 #print(xml_tag_values2set('coreftype', path2xml))
-print(str2wikidata_freebase_uri("Obama"))
+print(str2wikidata_freebase_uri("Tsipras"))
