@@ -127,12 +127,12 @@ def str2wikidata_freebase_uri(str):
     try:
         result1 = response.get("search")[0] # <-- dict
         wikidata_uri = result1.get("concepturi")
-        wiki_id = result1.get("id")
+        wiki_id = wikidata_uri[wikidata_uri.rfind('/')+1:]
         # Look for wiki_id's freebase id:
         sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
         sparql.setQuery("""
         SELECT * WHERE {
-            ?item wdt:P31* wd:%s.
+            ?item wdt:* wd:%s.
             OPTIONAL { ?item wdt:P646 ?Freebase_ID. }
         }
         LIMIT 1
@@ -154,4 +154,10 @@ path2json = 'Barack_Obama_AllenPrediction.json'
 path2xml = './WikiCoref/Annotation/Barack_Obama/Markables/Barack Obama_coref_level.xml'
 #export2xml(path2json)
 #print(xml_tag_values2set('coreftype', path2xml))
-print(str2wikidata_freebase_uri("Tsipras"))
+
+strings_to_test = ["Angela Merkel",
+                   "Western Canada",
+                   "Iowa State",
+                   "Google"]
+for string_to_test in strings_to_test:
+    print(string_to_test + ': ' + str(str2wikidata_freebase_uri(string_to_test)))
