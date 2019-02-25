@@ -27,3 +27,16 @@ Steps to complete:
 5) Update AnaphoraModel() class to use new CorefPredictor. (Just init CorefPredictor with new model as parameter).
 
 6) Determine F1 score. Write up explanation of model.
+
+## To create a conda environment needed for HuggingFace Neuralcoref
+- `conda update conda`
+- `conda update anaconda`
+- `conda create -n yourenvname python anaconda`
+- `source activate yourenvname` The rest of the commands are executed with the environment activated. They will download only in the environment.
+- `conda install pytorch -c pytorch`
+- `conda install -c conda-forge spacy`
+- `conda install pytorch torchvision -c pytorch`
+- `conda install -c conda-forge tensorboardx`
+- `python -m spacy download en` This will give a prompt "You can now load the model via spacy.load('en')".
+
+The environment is now ready. You type `which python` to see the filepath to the python interpreter. Select this interpreter for the project in your favorite editor such as PyCharm.
