@@ -4,6 +4,9 @@ import logging
 import warnings
 from doc2words import doc2words
 from allennlp.predictors.predictor import Predictor
+# For freebase topic detection:
+import requests
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 # Just to suppress warning messages:
 logging.getLogger("allennlp").setLevel(logging.CRITICAL)
@@ -104,6 +107,7 @@ def export2xml(path2json):
     with open('./TestOutput/Markables/Barack Obama_coref_level.xml', 'wb') as f:
         f.write(etree.tostring(markables, pretty_print=True, encoding="utf-8", method="xml", doctype='<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE markables SYSTEM "markables.dtd">'))
 
+
 # Returns a set with all values that show up for a tag in an xml:
 def xml_tag_values2set(tag, path2xml):
     try:
@@ -116,7 +120,45 @@ def xml_tag_values2set(tag, path2xml):
         raise ValueError('File not found.')
 
 
+# Returns an array [wikidata_uri, freebase_uri] of the searched string str:
+def str2wikidata_freebase_uri(str):
+    url = "https://www.wikidata.org/w/api.php?action=wbsearchentities&search="+str+"&language=en&limit=1&format=json"
+    response = requests.get(url).json()
+    try:
+        result1 = response.get("search")[0] # <-- dict
+        wikidata_uri = result1.get("concepturi")
+        wiki_id = wikidata_uri[wikidata_uri.rfind('/')+1:]
+        # Look for wiki_id's freebase id:
+        sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+        sparql.setQuery("""
+        SELECT * WHERE {
+            ?item wdt:* wd:%s.
+            OPTIONAL { ?item wdt:P646 ?Freebase_ID. }
+        }
+        LIMIT 1
+        """%wiki_id)
+        sparql.setReturnFormat(JSON)
+        result2 = sparql.query().convert()
+        try:
+            freebase_id = result2.get('results').get("bindings")[0].get('Freebase_ID').get('value')
+            last_char_index = freebase_id.rfind('/') # doing this to convert '/' to '.' in the freebase id.
+            freebase_uri = "http://rdf.freebase.com/ns" + freebase_id[:last_char_index] + '.' + freebase_id[last_char_index+1:]
+            return [wikidata_uri, freebase_uri]
+        except:
+            return [wikidata_uri, "nan"]
+    except:
+        return ["nan", "nan"]
+
+
 path2json = 'Barack_Obama_AllenPrediction.json'
 path2xml = './WikiCoref/Annotation/Barack_Obama/Markables/Barack Obama_coref_level.xml'
 #export2xml(path2json)
-print(xml_tag_values2set('mentiontype', path2xml))
+#print(xml_tag_values2set('coreftype', path2xml))
+
+strings_to_test = ["Angela Merkel",
+                   "Western Canada",
+                   "Iowa State",
+                   "Google"]
+for string_to_test in strings_to_test:
+    print(string_to_test + ': ' + str(str2wikidata_freebase_uri(string_to_test)))
+
