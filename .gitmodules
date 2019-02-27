@@ -1,0 +1,3 @@
+[submodule "e2e-coref"]
+	path = e2e-coref
+	url = https://github.com/mattjburke/e2e-coref
