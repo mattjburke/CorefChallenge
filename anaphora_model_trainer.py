@@ -6,3 +6,6 @@ class AnaphoraModelTrainer():
   """
   def train_model(paths: list):
     pass
+
+  def train_model_conll(paths: list):
+    pass
