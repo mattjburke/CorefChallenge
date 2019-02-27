@@ -1,4 +1,3 @@
-tensorflow-gpu
 tensorflow-hub
 h5py
 nltk
