@@ -37,7 +37,7 @@ def initialize_best_env():
   else:
     set_gpus()
 
-  name = "best"
+  name = "final"
   print("Running experiment: {}".format(name))
 
   config = pyhocon.ConfigFactory.parse_file("./e2eCoref/experiments.conf")[name] #works from folder of anaphora_model.py
