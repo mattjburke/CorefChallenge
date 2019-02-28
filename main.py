@@ -1,13 +1,11 @@
 import logging
 import warnings
-import allennlp
-from allennlp.allennlp.predictors.coref import CorefPredictor
-#import doc2words
 import anaphora_model
+from lxml import etree
 
 ## Just to ignore warning messages:
-logging.getLogger("allennlp").setLevel(logging.CRITICAL)
-warnings.filterwarnings("ignore")
+#logging.getLogger("allennlp").setLevel(logging.CRITICAL)
+#warnings.filterwarnings("ignore")
 '''
 predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
 results = predictor.predict(
@@ -44,7 +42,7 @@ def clustersToString(pred_results):
     return clusters_dict
 
 
-from lxml import etree
+
 
 def doc2words(filename):
     if filename.lower().endswith('xml'):
@@ -83,9 +81,12 @@ destination = 'test_output.txt'
 
 #model = allennlp.models.coreference_resolution.coref.CoreferenceResolver()
 #predictor = allennlp.predictors.coref.CorefPredictor(model, )
-predictor = CorefPredictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
+#predictor = CorefPredictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
 #dict = predictor.predict_tokenized(words)
 #mmax = dict_to_mmax(dict)
-file = open(destination, "a")
-clusters = predictor.predict_tokenized(example)
-file.write(clusters)
+
+#file = open(destination, "a")
+#clusters = predictor.predict_tokenized(example)
+#file.write(clusters)
+
+anaphora_model.AnaphoraModel.predict_example(example, destination)

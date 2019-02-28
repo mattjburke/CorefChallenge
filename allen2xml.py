@@ -3,7 +3,7 @@ from lxml import etree
 import logging
 import warnings
 from doc2words import doc2words
-from allennlp.predictors.predictor import Predictor
+#from allennlp.predictors.predictor import Predictor
 # For freebase topic detection:
 import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
