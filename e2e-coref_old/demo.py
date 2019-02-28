@@ -29,7 +29,10 @@ def print_predictions(example):
   for span in example["top_spans"]:
       print(span)
   for cluster in example["predicted_clusters"]:
+    print("another cluster")
+    print(cluster)
     print(u"Predicted cluster: {}".format([" ".join(words[m[0]:m[1]+1]) for m in cluster]))
+    #print(u"cluster idices? : {}".format([m[0]:m[1]] for m in cluster]))
 
 def print_predictions_to_file(example, destination):
     file = open(destination, "a")
