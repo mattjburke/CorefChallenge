@@ -28,15 +28,15 @@ def print_predictions(example):
   #     print(mention)
   # for span in example["top_spans"]:
   #     print(span)
-  # cluster_list = []
-  # for cluster in example["predicted_clusters"]:
-  #   clust_l = []
-  #   for t in cluster:
-  #       tup_list = list(t)
-  #       clust_l.append(tup_list)
-  #   cluster_list.append()
+  cluster_list = []
+  for cluster in example["predicted_clusters"]:
+    clust_l = []
+    for t in cluster:
+        tup_list = list(t)
+        clust_l.append(tup_list)
+    cluster_list.append()
 
-  cluster_list = list(map(list, example["predicted_clusters"]))
+  #cluster_list = list(map(list, example["predicted_clusters"]))
 
   for cluster in cluster_list:
     print("another cluster")
