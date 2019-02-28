@@ -24,27 +24,31 @@ def create_example(text):
 
 def print_predictions(example):
   words = util.flatten(example["sentences"])
-  for mention in example["mention_to_predicted"]:
-      print(mention)
-  for span in example["top_spans"]:
-      print(span)
-  for cluster in example["predicted_clusters"]:
+  # for mention in example["mention_to_predicted"]:
+  #     print(mention)
+  # for span in example["top_spans"]:
+  #     print(span)
+  # cluster_list = []
+  # for cluster in example["predicted_clusters"]:
+  #   clust_l = []
+  #   for t in cluster:
+  #       tup_list = list(t)
+  #       clust_l.append(tup_list)
+  #   cluster_list.append()
+
+  cluster_list = list(map(list, example["predicted_clusters"]))
+
+  for cluster in cluster_list:
     print("another cluster")
     print(cluster)
     print(u"Predicted cluster: {}".format([" ".join(words[m[0]:m[1]+1]) for m in cluster]))
-    #print(u"cluster idices? : {}".format([m[0]:m[1]] for m in cluster]))
 
 def print_predictions_to_file(example, destination):
     file = open(destination, "a")
     # file.write(clusters)
-    words = util.flatten(example["sentences"])
-    for mention in example["mention_to_predicted"]:
-        #print(mention)
-        file.write(mention)
-    for span in example["top_spans"]:
-        file.write(span)
+    #words = util.flatten(example["sentences"])
     for cluster in example["predicted_clusters"]:
-        file.write(u"Predicted cluster: {}".format([" ".join(words[m[0]:m[1] + 1]) for m in cluster]))
+        file.write(cluster)
 
 
 def make_predictions(text, model):

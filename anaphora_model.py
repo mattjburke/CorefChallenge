@@ -27,6 +27,7 @@ class AnaphoraModel():
       model.restore(session)
       e2e.demo.print_predictions(e2e.demo.make_predictions(text, model))
       #e2e.demo.print_predictions_to_file(e2e.demo.make_predictions(text, model), destination)
+      #allen2xml.method(e2e.demo.get_predictions(e2e.demo.make_predictions(text, model))
 
 
 
