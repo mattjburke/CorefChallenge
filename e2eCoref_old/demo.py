@@ -8,8 +8,11 @@ import coref_model as cm
 import util
 
 import nltk
-#nltk.download("punkt")
+nltk.download("punkt")
 from nltk.tokenize import sent_tokenize, word_tokenize
+
+import json
+from ..allen2xml import export2xml
 
 def create_example(text):
   raw_sentences = sent_tokenize(text)
@@ -62,6 +65,17 @@ def make_and_get_predictions_list(text):
     with tf.Session() as session:
         model.restore(session)
         return get_predictions_list(make_predictions(text, model))
+
+def make_and_write_predictions_to_file(text, filepath: str):
+    pred_list = make_and_get_predictions_list(text)
+
+    #use allen2xml methods to transform output
+    json.dump(pred_list, open('pred_clusters.json', 'w'))
+    export2xml('pred_clusters.json')
+
+    #file = open(filepath, "w")    #not needed since export2xml determines filepath?
+
+
 
 
 def make_predictions(text, model):
