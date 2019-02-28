@@ -45,12 +45,23 @@ def print_predictions(example):
 
     return cluster_list
 
-def print_predictions_to_file(example, destination):
-    file = open(destination, "a")
-    # file.write(clusters)
-    #words = util.flatten(example["sentences"])
+def get_predictions_list(example):
+    cluster_list = []
     for cluster in example["predicted_clusters"]:
-        file.write(cluster)
+        clust_l = []
+        for t in cluster:
+            tup_list = list(t)
+            clust_l.append(tup_list)
+        cluster_list.append(clust_l)
+
+    return cluster_list
+
+def make_and_get_predictions_list(text):
+    config = util.initialize_from_env()
+    model = cm.CorefModel(config)
+    with tf.Session() as session:
+        model.restore(session)
+        return get_predictions_list(make_predictions(text, model))
 
 
 def make_predictions(text, model):
