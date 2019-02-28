@@ -8,7 +8,7 @@ from allennlp.predictors.predictor import Predictor
 import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
 import anaphora_model
-import e2e-coref as e2e
+import e2eCoref as e2e
 
 # Just to suppress warning messages:
 logging.getLogger("allennlp").setLevel(logging.CRITICAL)
