@@ -2,6 +2,7 @@
 import e2e-coref as e2e
 import tensorflow as tf
 
+
 class AnaphoraModel():
   """
   Writes out annotations for a document, represented as a list of tokens, in MMAX standoff format, to the path
@@ -27,8 +28,5 @@ class AnaphoraModel():
       e2e.demo.print_predictions(e2e.demo.make_predictions(text, model))
       #e2e.demo.print_predictions_to_file(e2e.demo.make_predictions(text, model), destination)
 
-    # file = open(destination, "a")
-    # clusters = predictor.predict_tokenized(words)
-    # file.write(clusters)
 
 

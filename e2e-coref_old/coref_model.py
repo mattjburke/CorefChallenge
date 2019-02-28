@@ -515,6 +515,9 @@ class CorefModel(object):
       mention_to_predicted[mention] = predicted_cluster
 
     predicted_clusters = [tuple(pc) for pc in predicted_clusters]
+    print("predicted clusters1 : " + predicted_clusters)
+    for item in mention_to_predicted.items():
+      print("mention_to_predicted item : " + item)
     mention_to_predicted = { m:predicted_clusters[i] for m,i in mention_to_predicted.items() }
 
     return predicted_clusters, mention_to_predicted

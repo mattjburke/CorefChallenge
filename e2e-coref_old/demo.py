@@ -8,7 +8,7 @@ import coref_model as cm
 import util
 
 import nltk
-nltk.download("punkt")
+#nltk.download("punkt")
 from nltk.tokenize import sent_tokenize, word_tokenize
 
 def create_example(text):
@@ -30,6 +30,19 @@ def print_predictions(example):
       print(span)
   for cluster in example["predicted_clusters"]:
     print(u"Predicted cluster: {}".format([" ".join(words[m[0]:m[1]+1]) for m in cluster]))
+
+def print_predictions_to_file(example, destination):
+    file = open(destination, "a")
+    # file.write(clusters)
+    words = util.flatten(example["sentences"])
+    for mention in example["mention_to_predicted"]:
+        #print(mention)
+        file.write(mention)
+    for span in example["top_spans"]:
+        file.write(span)
+    for cluster in example["predicted_clusters"]:
+        file.write(u"Predicted cluster: {}".format([" ".join(words[m[0]:m[1] + 1]) for m in cluster]))
+
 
 def make_predictions(text, model):
   example = create_example(text)
