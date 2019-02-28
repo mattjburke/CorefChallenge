@@ -13,7 +13,7 @@ class AnaphoraModel():
 
 
   @staticmethod
-  def wordlist_to_block(words: list):
+  def wordlist_to_block(list):
     block = ""
     for word in list:
       block += " " + word
@@ -21,7 +21,7 @@ class AnaphoraModel():
 
 
   def predict_example(words: list, destination: str):
-    text = AnaphoraModel.wordlist_to_block(list)
+    text = AnaphoraModel.wordlist_to_block(words)
     config = e2e.util.initialize_best_env()
     model = e2e.coref_model.CorefModel(config)
     with tf.Session() as session:
