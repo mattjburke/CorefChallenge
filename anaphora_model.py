@@ -1,5 +1,8 @@
 
 import e2eCoref_old as e2e
+from e2eCoref_old.util import initialize_best_env
+from e2eCoref_old.coref_model import CorefModel
+from e2eCoref_old.demo import print_predictions, make_predictions
 import tensorflow as tf
 
 
@@ -22,11 +25,11 @@ class AnaphoraModel():
 
   def predict_example(words: list, destination: str):
     text = AnaphoraModel.wordlist_to_block(words)
-    config = e2e.util.initialize_best_env()
-    model = e2e.coref_model.CorefModel(config)
+    config = initialize_best_env()
+    model = CorefModel(config)
     with tf.Session() as session:
       model.restore(session)
-      e2e.demo.print_predictions(e2e.demo.make_predictions(text, model)) #just testing if regular method can be called in submoduel
+      print_predictions(make_predictions(text, model)) #just testing if regular method can be called in submoduel
       #e2e.demo.print_predictions_to_file(e2e.demo.make_predictions(text, model), destination)
       #allen2xml.method(e2e.demo.get_predictions(e2e.demo.make_predictions(text, model))
 
