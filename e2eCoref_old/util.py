@@ -31,6 +31,21 @@ def initialize_from_env():
   print(pyhocon.HOCONConverter.convert(config, "hocon"))
   return config
 
+def initialize_best_env():
+  if "GPU" in os.environ:
+    set_gpus(int(os.environ["GPU"]))
+  else:
+    set_gpus()
+
+  name = "best"
+  print("Running experiment: {}".format(name))
+
+  config = pyhocon.ConfigFactory.parse_file("./e2eCoref/experiments.conf")[name] #works from folder of anaphora_model.py
+  config["log_dir"] = mkdirs(os.path.join(config["log_root"], name))  #does this path need to change?
+
+  print(pyhocon.HOCONConverter.convert(config, "hocon"))
+  return config
+
 def copy_checkpoint(source, target):
   for ext in (".index", ".data-00000-of-00001"):
     shutil.copyfile(source + ext, target + ext)

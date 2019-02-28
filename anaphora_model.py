@@ -1,5 +1,5 @@
 
-import e2eCoref as e2e
+import e2eCoref_old as e2e
 import tensorflow as tf
 
 
