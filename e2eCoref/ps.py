@@ -3,7 +3,7 @@
 import os
 
 import tensorflow as tf
-import util
+from . import util
 
 if __name__ == "__main__":
   config = util.initialize_from_env()

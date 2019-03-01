@@ -9,8 +9,8 @@ import time
 import shutil
 
 import tensorflow as tf
-import coref_model as cm
-import util
+from . import coref_model as cm
+from . import util
 
 def copy_checkpoint(source, target):
   for ext in (".index", ".data-00000-of-00001"):

@@ -10,8 +10,8 @@ import tempfile
 import subprocess
 import collections
 
-import util
-import conll
+from . import util
+from . import conll
 
 class DocumentState(object):
   def __init__(self):

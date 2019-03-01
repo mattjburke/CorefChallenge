@@ -4,8 +4,8 @@ from __future__ import print_function
 
 from six.moves import input
 import tensorflow as tf
-import coref_model as cm
-import util
+from . import coref_model as cm
+from . import util
 
 import nltk
 nltk.download("punkt")

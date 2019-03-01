@@ -7,8 +7,8 @@ import os
 import time
 
 import tensorflow as tf
-import coref_model as cm
-import util
+from . import coref_model as cm
+from . import util
 
 if __name__ == "__main__":
   config = util.initialize_from_env()
