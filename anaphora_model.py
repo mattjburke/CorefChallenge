@@ -37,6 +37,7 @@ class AnaphoraModel():
 
     os.chdir("..")
 
+
   @staticmethod
   def wordlist_to_block(list):
     block = ""
