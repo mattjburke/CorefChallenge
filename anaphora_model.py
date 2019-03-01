@@ -13,9 +13,9 @@ class AnaphoraModel():
   """
 
 
-  # def __init__(self):
-  #   self.config = initialize_best_env()
-  #   self.model = CorefModel(self.config)
+  def __init__(self):
+    self.config = initialize_best_env()
+    self.model = CorefModel(self.config)
 
 
   @staticmethod
@@ -26,13 +26,13 @@ class AnaphoraModel():
     return block
 
 
-  def predict_example(words: list, destination: str):
+  def predict_example(self, words: list, destination: str):
     text = AnaphoraModel.wordlist_to_block(words)
     config = initialize_best_env()
     model = CorefModel(config)
     with tf.Session() as session:
-      model.restore(session)
-      print_predictions(make_predictions(text, model)) #just testing if regular method can be called in submoduel
+      self.model.restore(session)
+      print_predictions(make_predictions(text, self.model)) #just testing if regular method can be called in submoduel
       #e2e.demo.print_predictions_to_file(e2e.demo.make_predictions(text, model), destination)
       #allen2xml.method(e2e.demo.get_predictions(e2e.demo.make_predictions(text, model))
 

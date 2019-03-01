@@ -2,7 +2,7 @@ import json
 from lxml import etree
 import logging
 import warnings
-from doc2words import doc2words
+from extras import doc2words
 #from allennlp.predictors.predictor import Predictor
 # For freebase topic detection:
 import requests
@@ -10,20 +10,13 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import anaphora_model
 import e2eCoref as e2e
 
-# Just to suppress warning messages:
-logging.getLogger("allennlp").setLevel(logging.CRITICAL)
-warnings.filterwarnings("ignore")
-########################################################
-
-basepath = './WikiCoref/Annotation/'
-
-# Creating AllenNLP Predictor object from pre-trained data:
-predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/coref-model-2018.02.05.tar.gz")
 
 
 def run_test(predictor_, rel_path, save2json):
     # save2json: Toggle save to json. Should be True by default.
     # rel_path: Set to the relative path of the article (words xml) you want to test predictions for
+
+    basepath = './WikiCoref/Annotation/'
 
     xml_path = basepath + rel_path  # concatenate base and relative paths to get total path from current dir to xml
     name = rel_path[:rel_path.find('/')]  # just extracting the article's name
@@ -96,7 +89,7 @@ def spans_w_coref(path2json):
         raise ValueError('File not found.')
 
 
-def export2xml(path2json):
+def export2xml(path2json, destination):
     markables = etree.Element('markables', {'xmlns': "www.eml.org/NameSpaces/coref"})
     id = 0
     spans_dict = spans_w_coref(path2json)
@@ -108,7 +101,8 @@ def export2xml(path2json):
         markable.set('mmax_level', 'coref')
         markables.append(markable)
         id += 1
-    with open('./TestOutput/Markables/Barack Obama_coref_level.xml', 'wb') as f:
+    #with open('./TestOutput/Markables/Barack Obama_coref_level.xml', 'wb') as f:
+    with open(destination + 'coref_predictions.xml', 'wb') as f:
         f.write(etree.tostring(markables, pretty_print=True, encoding="utf-8", method="xml", doctype='<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE markables SYSTEM "markables.dtd">'))
 
 

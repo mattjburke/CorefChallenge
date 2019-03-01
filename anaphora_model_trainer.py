@@ -6,12 +6,11 @@ class AnaphoraModelTrainer():
   a path like WikiCoref/Annotation/Barack_Obama.
   """
 
-  # def __init__(self, model: AnaphoraModel):
-  #   self.model = model
+  def __init__(self, model: AnaphoraModel):
+    self.model = model
 
+  def train_model(self, paths: list):
+    self.train_model_conll()
 
-  def train_model(paths: list):
-    train_model_conll(paths)
-
-  def train_model_conll(paths: list):
+  def train_model_conll(self, paths: list):
     pass
