@@ -1,8 +1,11 @@
 
-import e2eCoref as e2e
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 from e2eCoref.util import initialize_best_env
-from e2eCoref.coref_model import CorefModel
 from e2eCoref.demo import print_predictions, make_predictions, make_and_write_predictions_to_file
+from e2eCoref.coref_model import CorefModel
 import tensorflow as tf
 import subprocess
 import os
