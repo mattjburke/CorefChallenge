@@ -13,5 +13,5 @@ class AnaphoraModelTrainer():
   def train_model(paths: list):
     train_model_conll(paths)
 
-  def train_model_conll(self, paths: list):
+  def train_model_conll(paths: list):
     pass
