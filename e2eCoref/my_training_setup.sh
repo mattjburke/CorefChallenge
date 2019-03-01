@@ -4,7 +4,7 @@ pip install -r requirements.txt
 
 ./setup_all.sh
 
-python my_setup_training.py
+python my_training_dir_setup.py
 
 python minimize.py
 

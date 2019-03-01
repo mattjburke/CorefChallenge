@@ -15,9 +15,12 @@ class AnaphoraModel():
   """
 
 
-  def __init__(self):
+  def __init__(self, pretrained):
     os.chdir("e2eCoref")
-    subprocess("my_setup.sh")
+    if pretrained:
+      subprocess("my_pretrained_setup.sh")
+    else:
+      subprocess("my_training_setup.sh")
     self.config = initialize_best_env()
     self.model = CorefModel(self.config)
     os.chdir("..")
