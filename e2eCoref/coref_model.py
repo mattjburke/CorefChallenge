@@ -13,10 +13,10 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import h5py
 
-import util
-import coref_ops
-import conll
-import metrics
+from . import util
+from . import coref_ops
+from . import conll
+from . import metrics
 
 class CorefModel(object):
   def __init__(self, config):
