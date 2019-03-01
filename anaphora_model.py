@@ -18,9 +18,9 @@ class AnaphoraModel():
   def __init__(self, pretrained):
     os.chdir("e2eCoref")
     if pretrained:
-      subprocess("my_pretrained_setup.sh")
+      subprocess.call(['./mypretrained_setup.sh']) # correct format?
     else:
-      subprocess("my_training_setup.sh")
+      subprocess.call(['./my_pretrained_setup.sh']) # correct format?
     self.config = initialize_best_env()
     self.model = CorefModel(self.config)
     os.chdir("..")

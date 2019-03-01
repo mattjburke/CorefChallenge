@@ -16,11 +16,11 @@ class AnaphoraModelTrainer():
 
   def train_model_conll(self, paths: list):
     os.chdir("e2eCoref")
-    subprocess("python train.py best")
+    subprocess.call(['python', 'train.py', 'best'])
     os.chdir("..")
 
 
   def evaluate_tained_model(self):
     os.chdir("e2eCoref")
-    subprocess("python evaluate.py best")
+    subprocess.call(['python', 'evaluate.py', 'best'])
     os.chdir("..")
