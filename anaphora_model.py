@@ -17,15 +17,6 @@ class AnaphoraModel():
     self.config = initialize_best_env()
     self.model = CorefModel(self.config)
 
-
-  @staticmethod
-  def wordlist_to_block(list):
-    block = ""
-    for word in list:
-      block += " " + word
-    return block
-
-
   def predict_example(self, words: list, destination: str):
     text = AnaphoraModel.wordlist_to_block(words)
     config = initialize_best_env()
@@ -36,5 +27,9 @@ class AnaphoraModel():
       #e2e.demo.print_predictions_to_file(e2e.demo.make_predictions(text, model), destination)
       #allen2xml.method(e2e.demo.get_predictions(e2e.demo.make_predictions(text, model))
 
-
-
+  @staticmethod
+  def wordlist_to_block(list):
+    block = ""
+    for word in list:
+      block += " " + word
+    return block
