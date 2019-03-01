@@ -32,9 +32,6 @@ class AnaphoraModel():
       self.model.restore(session)
       make_and_write_predictions_to_file(make_predictions(text, self.model), destination)
 
-      # print_predictions(make_predictions(text, self.model))
-      #allen2xml.method(e2e.demo.get_predictions(e2e.demo.make_predictions(text, model))
-
     os.chdir("..")
 
   @staticmethod
