@@ -26,7 +26,7 @@ def initialize_best_env():
   name = "final"
   print("Running experiment: {}".format(name))
 
-  config = pyhocon.ConfigFactory.parse_file("./e2eCoref/experiments.conf")[name] #works from folder of anaphora_model.py
+  config = pyhocon.ConfigFactory.parse_file("experiments.conf")[name] #works from folder of anaphora_model.py
   config["log_dir"] = mkdirs(os.path.join(config["log_root"], name))  #does this path need to change?
 
   print(pyhocon.HOCONConverter.convert(config, "hocon"))
