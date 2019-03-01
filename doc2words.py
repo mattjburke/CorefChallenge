@@ -27,21 +27,31 @@ def doc2words(filename):
     else:
         raise ValueError('Please input xml or txt.')
 
-'''
-base_path = './WikiCoref/Annotation/'
 
-xml2words = doc2words(base_path + 'Barack_Obama/Basedata/Barack Obama_words.xml')
-txt2words = doc2words(base_path + 'Barack_Obama/Barack Obama.txt')
+def clustersToString(pred_results):
+    top_spans = pred_results.get('top_spans')
+    doc = pred_results.get('document')
+    clusters = pred_results.get('clusters')
+    # top_spans from list of lists to list of strings:
+    top_spans_dict = {}
+    for span in top_spans:
+        span_as_str = str(span)
+        a = span[0]  # span is a tuple, so extract its components
+        b = span[-1]
+        temp = ''
+        for i in range(a, b + 1):
+            temp = temp + doc[i] + ' '
+        temp = temp[0:-1]
+        top_spans_dict[span_as_str] = temp
 
-print('xml2words: size=' + str(len(xml2words)) + ', last element = ' + xml2words[-1])
-print('txt2words: size=' + str(len(txt2words)) + ', last element = ' + txt2words[-1])
+    # clusters from list of lists of lists to dict of lists of strings:
+    clusters_dict = {}
+    i = 0
+    for cluster in clusters:
+        temp = list()
+        for span in cluster:
+            temp.append(top_spans_dict.get(str(span)))
+        clusters_dict[i] = temp
+        i += 1
 
-# check all last lines of txt files:
-articles = os.listdir(base_path)
-for dir in articles:
-    files = os.listdir(base_path + dir)
-    for file in files:
-        if file.endswith(".txt"):
-            print(doc2words(base_path + dir + '/' + file)[-1])
-# ok... so all txt files' last line is '</markables>'
-'''
+    return clusters_dict

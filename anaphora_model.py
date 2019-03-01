@@ -13,6 +13,9 @@ class AnaphoraModel():
   """
 
 
+  # def __init__(self):
+  #   self.config = initialize_best_env()
+  #   self.model = CorefModel(self.config)
 
 
   @staticmethod
