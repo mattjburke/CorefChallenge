@@ -11,6 +11,9 @@ import nltk
 nltk.download("punkt")
 from nltk.tokenize import sent_tokenize, word_tokenize
 
+import json
+from helpers import export2xml
+
 def create_example(text):
   raw_sentences = sent_tokenize(text)
   sentences = [word_tokenize(s) for s in raw_sentences]
@@ -39,6 +42,31 @@ def make_predictions(text, model):
   example["top_spans"] = zip((int(i) for i in mention_starts), (int(i) for i in mention_ends))
   example["head_scores"] = head_scores.tolist()
   return example
+
+# next 3 methods added
+def get_predictions_list(example):
+  cluster_list = []
+  for cluster in example["predicted_clusters"]:
+    clust_l = []
+    for t in cluster:
+      tup_list = list(t)
+      clust_l.append(tup_list)
+    cluster_list.append(clust_l)
+
+  return cluster_list
+
+def make_and_get_predictions_list(text):
+  config = util.initialize_from_env()
+  model = cm.CorefModel(config)
+  with tf.Session() as session:
+    model.restore(session)
+    return get_predictions_list(make_predictions(text, model))
+
+
+def make_and_write_predictions_to_file(text, destination: str):
+  pred_list = make_and_get_predictions_list(text)
+  json.dump(pred_list, open('pred_clusters.json', 'w'))
+  export2xml('pred_clusters.json', destination)
 
 if __name__ == "__main__":
   config = util.initialize_from_env()
