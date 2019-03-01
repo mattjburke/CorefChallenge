@@ -1,9 +1,11 @@
 
-import e2eCoref_old as e2e
-from e2eCoref_old.util import initialize_best_env
-from e2eCoref_old.coref_model import CorefModel
-from e2eCoref_old.demo import print_predictions, make_predictions
+import e2eCoref as e2e
+from e2eCoref.util import initialize_best_env
+from e2eCoref.coref_model import CorefModel
+from e2eCoref.demo import print_predictions, make_predictions, make_and_write_predictions_to_file
 import tensorflow as tf
+import subprocess
+import os
 
 
 class AnaphoraModel():
@@ -14,18 +16,23 @@ class AnaphoraModel():
 
 
   def __init__(self):
+    os.chdir("e2eCoref")
+    subprocess("my_setup.sh")
     self.config = initialize_best_env()
     self.model = CorefModel(self.config)
+    os.chdir("..")
 
   def predict_example(self, words: list, destination: str):
     text = AnaphoraModel.wordlist_to_block(words)
-    config = initialize_best_env()
-    model = CorefModel(config)
+    os.chdir("e2eCoref")
     with tf.Session() as session:
       self.model.restore(session)
-      print_predictions(make_predictions(text, self.model)) #just testing if regular method can be called in submoduel
-      #e2e.demo.print_predictions_to_file(e2e.demo.make_predictions(text, model), destination)
+      make_and_write_predictions_to_file(make_predictions(text, self.model), destination)
+
+      # print_predictions(make_predictions(text, self.model))
       #allen2xml.method(e2e.demo.get_predictions(e2e.demo.make_predictions(text, model))
+
+    os.chdir("..")
 
   @staticmethod
   def wordlist_to_block(list):

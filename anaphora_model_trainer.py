@@ -1,4 +1,6 @@
 from anaphora_model import AnaphoraModel
+import subprocess
+import os
 
 class AnaphoraModelTrainer():
   """
@@ -13,5 +15,6 @@ class AnaphoraModelTrainer():
     self.train_model_conll()
 
   def train_model_conll(self, paths: list):
-    
+    os.chdir()
+
     pass
