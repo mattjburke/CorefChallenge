@@ -19,9 +19,18 @@ class AnaphoraModel():
 
 
   def __init__(self, pretrained):
+    """
+
+
+
+    Creates a model with predetermined hyperparameters. If the pretrained boolean is true, then the wieghts of
+    a model trained by the authors will be stored in logs and can be used to make predictions. Loading word embedding
+    to set up the model can take some time.
+    :param pretrained: boolean to indicate if a pretrained model will be loaded or a model to be trained will be loaded
+    """
     os.chdir("e2eCoref")
     if pretrained:
-      subprocess.call(['./mypretrained_setup.sh']) # correct format?
+      subprocess.call(['./my_pretrained_setup.sh']) # correct format?
     else:
       subprocess.call(['./my_pretrained_setup.sh']) # correct format?
     self.config = initialize_best_env()
@@ -29,6 +38,13 @@ class AnaphoraModel():
     os.chdir("..")
 
   def predict_example(self, words: list, destination: str):
+    """
+    Predicts the coref clusters in a document, given as a list of words, and writes these predictions to a file in a
+    modified OntoNotes scheme matching the WikiCoref dataset's scheme.
+    :param words: The document to predict on, given as a list of tokens.
+    :param destination: The filepath of where to output the file with predictions.
+    :return: void
+    """
     text = AnaphoraModel.wordlist_to_block(words)
     os.chdir("e2eCoref")
     with tf.Session() as session:
@@ -40,6 +56,11 @@ class AnaphoraModel():
 
   @staticmethod
   def wordlist_to_block(list):
+    """
+    Simply turns a list of words into a continuous block of text.
+    :param list: words from a document
+    :return: the words separated by one space
+    """
     block = ""
     for word in list:
       block += " " + word
