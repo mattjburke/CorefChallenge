@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Anaphora Challenge Resolution - by Matt Burke &amp Marios Tsekitsidis</title>
+    <style>
+        body {
+            font-family: "Segoe UI";
+            font-size: 16px;
+        }
+        H1 {font-size: 40px; margin-top: 40px; margin-bottom: 30px}
+        H2 {font-size: 32px; margin-top: 30px; margin-bottom: 20px}
+        H3 {font-size: 25px; margin-top: 20px; margin-bottom: 13px}
+        H4 {font-size: 22px; margin-top: 13px; margin-bottom: 8px}
+        H5 {font-size: 18px; margin-top: 8px; margin-bottom: 5px}
+        .center {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .indented {
+            padding-left: 15px;
+        }
+        .console-font {
+            font-family: Consolas;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="title-subtitle" class="center">
+        <h1 style="margin-bottom:0">Anaphora Challenge Resolution</h1>
+        <p style="margin-top:0">by Matt Burke &amp Marios Tsekitsidis</p>
+    </div>
+    
+    <nav id="navigator" class="center">
+        <a href="#section-1">Introduction</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#section-2">Documentation</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#section-3">Run our code</a>
+    </nav>
+    
+    <div id="section-1">
+        <h2>1. Introduction</h2>
+        
+        <h3>1.1. Summary</h3>
+        <p>
+            Our solution to resolve the anaphora challenge utilizes state-of-the-art methodology from the Kenton Lee et al. (2018) paper and its implementation, e2e-coref, which are discussed in detail in section 1.2. Here are some of our implementation's most notable advantages:
+        </p>
+        <ul>
+            <li>
+                It provides the user with the ability to train their own model. It also offers the option to use e2e-coref's pretrained model (even if only in the interest of comparison) which yields the highest F1 scores among all the literature we researched.
+            </li>
+            <li>
+                It can produce the necessary output (.xml, .mmax files) to import the predicted annotations to MMAX2's GUI. Specifically, this can be done by outputting the .mmax file at the <i>same level</i> as the Markables folder, and outputting the .xml <i>inside</i> the Markables folder within the WikiCoref file structure and making sure the filenames are appropriate.
+            </li>
+            <li>
+                It includes a method (str2wikidata_freebase_uri(str) <a href="#str2wikidata">[1]</a>) to detect the Freebase and/or Wikidata topic associated with each predicted coreference cluster. This feature has not been integrated to the prediction pipeline yet. Our plan for this integration would entail that, for each cluster corresponding to a DB entity, we identify the most representative span in that cluster and we call str2wikidata_freebase_uri on that string.
+            </li>
+        </ul>
+        
+        <h3>1.2. Model Overview</h3>
+        <p>
+            The model we implemented was derived from the paper “<a href="https://arxiv.org/abs/1804.05392">Higher Order Coreference Resolution with Coarse-to-Fine Inference</a>”, published in NAACL 2018 by Kenton Lee, Luheng He, and Luke Zettlemoyer. To our knowledge, the F1 score achieved on a coreference resolution task in this paper is the highest published F1 score to date. The authors also graciously open-sourced their code for this model, allowing us to replicate their results and modify it to suit our needs. We included the option to use the pretrained weights of the model trained by the authors on various datasets, as well as the option to train the model on the WikiCoref dataset or other datasets of the same format.
+        </p>
+        <p>
+            This model is the culmination of several recent incremental improvements in neural net models for coreference resolution. The superior effectiveness of neural net models for coreference resolution was first demonstrated by Clark and Manning in their 2016 papers “<a href="https://cs.stanford.edu/people/kevclark/resources/clark-manning-emnlp2016-deep.pdf">Deep reinforcement learning for mention-ranking coreference models</a>” and “<a href="https://nlp.stanford.edu/pubs/clark2016improving.pdf">Improving coreference resolution by learning entity-level distributed representations</a>”. These models were integrated into several NLP pipelines, including Standford’s CoreNLP and HuggingFace’s <a href="https://github.com/huggingface/neuralcoref">neuralcoref</a>. These models are relatively computationally efficient, but we prioritized achieving the highest F1 scores on our task over computational efficiency.
+        </p>
+        <p>
+            The first major improvement in neural coreference models was published in 2017 in Lee et. al’s paper "<a href="https://www.aclweb.org/anthology/D17-1018">End-to-end Neural Coreference Resolution</a>". This showed an F1 score of 67.2, a 1.5 point improvement over Clark and Manning’s model. This paper also open-sources their code, allowing others to improve upon their results. This model was then improved by Peters et al in 2018 by using ELMo word embeddings as the input to the model, instead of the previously used GloVe embeddings. This end-to-end model using ELMo embeddings is the backbone of our model.
+        </p>
+        <p>
+            Our model applies the end-to-end neural model iteratively in order to detect second-order references. Clusters are detected by the end-to-end model on a first pass, and then these clusters are fed into the model once more, which allows clusters that refer to the same entity, but were too far apart to be grouped together on a first pass of the model, to be correctly combined into one cluster. This achieves an average F1 score of 73.0, as can be seen in Table 1 of the “Higher Order Coreference Resolution with Coarse-to-Fine Inference” paper.
+        </p>
+        <p>
+            One of the major challenges of implementing our model was adapting it for the WikiCoref dataset. Instead of changing our model parameters from the CoNLL format that Lee et al trained their model on, we instead changed the WikiCoref documents into the CoNLL format and trained on these documents. Our model takes in a list of words, makes predictions in CoNLL format, and then transforms the CoNLL predictions into the OntoNotes format of the WikiCoref dataset. The functions to transform from CoNLL output to OntoNotes format are provided in helpers.py.
+        </p>
+    </div>
+    
+    <div id="section-2">
+        <h2>2. Documentation</h2>
+        
+        <h4 style="margin-bottom:0">Anaphora Model</h4>
+        <p style="margin-top:4px;margin-bottom:4px">
+            This script contains method(s) that perform coreference prediction.
+        </p>
+        <div class="indented">
+            <h5>__init__(self, pretrained)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                pretrained (<span class="console-font">bool</span>): Uses the pretrained model if set to <span class="console-font">True</span>.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Creates a model with predetermined hyperparameters. If the pretrained boolean is true, then the weights of a model trained by the authors will be stored in logs and can be used to make predictions. Loading word embedding to set up the model can take some time.
+            </p>
+            <h5>predict_example(self, words: list, destination: str)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                words (<span class="console-font">list</span>): A list of words on which to perform coreference prediction. <br>
+                destination (<span class="console-font">str</span>): The path where to output the .xml document with the predicted annotations and the corresponding .mmax file to allow importing to the MMAX2 GUI.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Predicts the coref clusters in a document, given as a list of words, and writes these predictions to a file in a modified OntoNotes scheme matching the WikiCoref dataset's scheme.
+            </p>
+            <h5>wordlist_to_block(list)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                list (<span class="console-font">list</span>): A list of words to be concatenated.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Simply turns a list of words into a continuous block of text.
+            </p>
+        </div>
+        
+        <h4 style="margin-bottom:0">Anaphora Model Trainer</h4>
+        <p style="margin-top:4px;margin-bottom:4px">
+            This script contains methods for training a coreference resolution model.
+        </p>
+        <div class="indented">
+            <h5>__init__(self, model: AnaphoraModel)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                model (<span class="console-font">AnaphoraModel</span>): A model of type AnaphoraModel.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                The trainer must be initialized with the AnaphoraModel you with to train.
+            </p>
+            <h5>train_model(self, paths: list)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                paths (<span class="console-font">list</span>): A list of paths with the documents to be used for training.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Overloads train_model_conll.
+            </p>
+            <h5>train_model_conll(self, paths: list)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                paths (<span class="console-font">list</span>): A list of paths with the documents to be used for training.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Replaces the WikiCoref format documents with corresponding CoNLL format documents, and trains the AnaphoraModel on these documents.
+            </p>
+            <h5>evaluate_tained_model(self)</h5>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Writes the average F1 score, precision, and recall of the trained model to the console.
+            </p>
+        </div>
+        
+        <h4 style="margin-bottom:0">Extras</h4>
+        <p style="margin-top:4px;margin-bottom:4px">
+            This script contains auxiliary method(s) for our own testing.
+        </p>
+        <div class="indented">
+            <h5>doc2words(filename)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                filename (<span class="console-font">str</span>): The name of the document from which to extract list of words.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Reads the xml document (filename) of an article’s words (e.g. Barack Obama_words.xml) and returns a python list of them. Used in testing our anaphora model predictor.
+            </p>
+        </div>
+        
+        <h4 style="margin-bottom:0">Helpers</h4>
+        <p style="margin-top:4px;margin-bottom:4px">
+            This script contains helper methods for key operations such as detecting Freebase and/or Wikidata topics and outputting predictions in the WikiCoref format.
+        </p>
+        <div class="indented">
+            <h5>compare_json2xml(attribute, path2predictedJSON, path2trueXML)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                attribute (<span class="console-font">str</span>): the attribute whose number of elements to count. Could be 'clusters' or 'top_spans'.<br>
+                path2predictedJSON (<span class="console-font">str</span>): the path to the JSON file.<br>
+                path2trueXML (<span class="console-font">str</span>): the path to the xml file.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Compares the counts for an attribute within a JSON vs. a corresponding xml file.
+            </p>
+            <h5>count_in_json(attribute, path2json)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                attribute (<span class="console-font">str</span>): the attribute whose number of elements to count. Could be 'clusters' or 'top_spans'.<br>
+                path2json (<span class="console-font">str</span>): the path to the JSON file.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Counts how many elements an attribute (/field) in a JSON contains. Used to count how many spans and how many clusters our predictor detected.
+            </p>
+            <h5>count_in_xml(attribute, path2xml)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                attribute (<span class="console-font">str</span>): the attribute whose number of elements to count. Could be 'coref_class' or 'span'.<br>
+                path2xml (<span class="console-font">str</span>): the path to the xml file.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Counts how many elements an attribute (/field) in an xml contains. Used to count how many spans and how many clusters our predictor detected.
+            </p>
+            <h5>spans_w_coref(path2json)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                path2json (<span class="console-font">str</span>): Path to the JSON file containing the prediction.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Returns a dictionary whose keys are spans (represented as strings) and values are the clusters that spans belong to (also represented as strings).
+            </p>
+            <h5>export2xml(path2json, destination)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                path2json (<span class="console-font">str</span>): Path to the JSON file containing the prediction.<br>
+                destination (<span class="console-font">str</span>): Path to the directory where to output the coreference annotations as xml.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Reads the predictor's output from a JSON file and outputs an xml with the predicted coreference information, as well as predicted Wikidata and Freebase topic information, in the WikiCoref format. (Pre-condition: the predictor must have run and its results must have been stored in a JSON file).
+            </p>
+            <h5>xml_tag_values2set(tag, path2xml)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                tag (<span class="console-font">str</span>): The tag we are interested in exporting information about. <br>
+                path2xml (<span class="console-font">str</span>): Path to the xml from which to read.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Returns a set with all values that show up for a tag in an xml.
+            </p>
+            <h5 id="str2wikidata">str2wikidata_freebase_uri(str)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                str (<span class="console-font">str</span>): The string to search for on Wikidata.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Searches for string str in the Wikidata database. Once the corresponding entity is found in Wikidata, looks for its Freebase ID property within the entity's properties. Returns an array [wikidata_uri, freebase_uri] of the searched string's topic's Wikidata URI and Freebase URI.
+            </p>
+            <h5>createMMAXfile(words_xml_filename)</h5>
+            <i>Arguments:</i>
+            <div class="indented" style="margin-bottom:5px">
+                words_xml_filename (<span class="console-font">str</span>): The name of the article's words.xml file.
+            </div>
+            <i>Description:</i>
+            <p class="indented" style="margin-top:0">
+                Writes an .mmax file with the appropriate content to enable importing to MMAX2.
+            </p>
+        </div>
+    </div>
+    
+    <div id="section-3">
+        <h2>3. Run our code</h2>
+        <p>
+            Training our model on a personal laptops can be very time consuming, so we tested running and training our model on publicly available TPUs in Goggle Colaboratry. A copy of a Colab notebook showing the exact steps of how to train the model on Colab is included in our submission. You need to either clone into our repository from the notebook (or upload our submission files to the notebook). The sequence of cammands to run is:
+        </p>
+        <p class="indented">
+            !git clone https://github.com/mattjburke/CorefChallenge.git
+            <br>%cd CorefChallenge
+            <br>!./setup_colab_reqs.sh
+            <br>import anaphora_model, anaphora_model_trainer
+        </p>
+        <p>
+            Then the anaphora_model and anaphora_model_trainer classes can be used normally.
+        </p>
+        <p>
+            Unfortunately, we encountered a bug in this setup that we have not been able to resolve (specifically, coref_kernels.so does not get created when coref_kernels.cc is compiled). Because of this, we included a colab notebook in our submission which only runs the e2eCoref code, and does not use the competition specified interface
+        </p>
+    </div>
+    
+    <div>
+        <h2>Acknowledgements</h2>
+        <p>
+            We are thankful for the implementation of the Kenton Lee et al. (2018) paper: <a href="https://github.com/kentonl/e2e-coref">https://github.com/kentonl/e2e-coref</a>.
+        </p>
+        <p>
+            We gratefully acknowledge the source of our CoNLL-formatted WikiCoref documents: <a href="https://github.com/victoriasovereigne/WikiCoref-CoNLL">https://github.com/victoriasovereigne/WikiCoref-CoNLL</a>.
+        </p><br><br>
+    </div>
+
+</body>
+</html>
