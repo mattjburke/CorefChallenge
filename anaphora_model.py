@@ -20,9 +20,6 @@ class AnaphoraModel():
 
   def __init__(self, pretrained):
     """
-
-
-
     Creates a model with predetermined hyperparameters. If the pretrained boolean is true, then the wieghts of
     a model trained by the authors will be stored in logs and can be used to make predictions. Loading word embedding
     to set up the model can take some time.

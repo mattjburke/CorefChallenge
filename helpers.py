@@ -1,32 +1,8 @@
 import json
 from lxml import etree
-from extras import doc2words
 # For freebase topic detection:
 import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
-import anaphora_model
-import e2eCoref as e2e
-
-
-
-def run_test(predictor_, rel_path, save2json):
-    # save2json: Toggle save to json. Should be True by default.
-    # rel_path: Set to the relative path of the article (words xml) you want to test predictions for
-
-    basepath = './WikiCoref/Annotation/'
-
-    xml_path = basepath + rel_path  # concatenate base and relative paths to get total path from current dir to xml
-    name = rel_path[:rel_path.find('/')]  # just extracting the article's name
-
-    list_words = doc2words(xml_path)  # reading xml document into list of strings/words
-
-    # Running the predictor on the list of words:
-    #results = predictor_.predict_tokenized(list_words)
-    text = anaphora_model.wordlist_to_block(list_words)
-    results = e2e.demo.make_and_get_predictions_list(text)
-
-    if save2json:
-        json.dump(results, open(name + '_AllenPrediction.json', 'w'))
 
 
 def compare_json2xml(attribute, path2predictedJSON, path2trueXML):

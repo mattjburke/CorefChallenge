@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pip install pyhocon
+#pip install pyhocon #is already in requirements
 
 cd e2eCoref
 
