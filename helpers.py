@@ -121,15 +121,8 @@ def str2wikidata_freebase_uri(str):
         return ["nan", "nan"]
 
 
-path2json = 'Barack_Obama_AllenPrediction.json'
-path2xml = './WikiCoref/Annotation/Barack_Obama/Markables/Barack Obama_coref_level.xml'
-#export2xml(path2json)
-#print(xml_tag_values2set('coreftype', path2xml))
-
-strings_to_test = ["Angela Merkel",
-                   "Western Canada",
-                   "Iowa State",
-                   "Google"]
-for string_to_test in strings_to_test:
-    print(string_to_test + ': ' + str(str2wikidata_freebase_uri(string_to_test)))
+def createMMAXfile(words_xml_filename):
+    str_to_write = '<?xml version="1.0" encoding="UTF-8"?>\n<mmax_project>\n<words>'+words_xml_filename+'</words>\n<keyactions></keyactions>\n<gestures></gestures>\n</mmax_project>'
+    with open('output.mmax', 'w') as f:
+        f.write(str_to_write)
 
